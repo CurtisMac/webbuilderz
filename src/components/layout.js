@@ -7,9 +7,11 @@ import "../utils/styles.css"
 export default ({ children }) => (
   <div className="application">
     <Helmet>
-      <meta charSet="utf-8" />
-      <title>My Title</title>
-      <link rel="canonical" href="http://mysite.com/example" />
+      <title>WebBuilderz</title>
+      <link
+        href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+        rel="stylesheet"
+      />
     </Helmet>
     <ThemeProvider theme={theme}>
       <>{children}</>

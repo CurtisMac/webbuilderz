@@ -16,7 +16,7 @@ const Paragraph = styled.p`
 `
 
 export default () => (
-  <Layout>
+  <Layout pageTitle="WebBuilderz">
     <Header headerText="Hello Gatsby!" />
     <Paragraph pink>What a world.</Paragraph>
     <img src="https://source.unsplash.com/random/400x200" alt="" />
