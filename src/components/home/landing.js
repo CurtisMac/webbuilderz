@@ -30,7 +30,7 @@ const Container = styled.div`
   }
   @media screen and (max-width: ${props => props.theme.screen.medium}) {
     background-size: 200%;
-    background-image: ${props => props.theme.gradients.colour};
+    background-image: none;
   }
 `
 const MobileGradient = styled.img`
@@ -67,9 +67,15 @@ const Title = styled.h1`
   /* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
   font-size: calc(32px + (72 - 32) * ((100vw - 768px) / (1800 - 768)));
   @media screen and (max-width: ${props => props.theme.screen.medium}) {
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: center;
     color: white;
+  }
+  @media screen and (max-width: ${props => props.theme.screen.small}) {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    margin-top: 0;
   }
 `
 const Text = styled.p`
@@ -78,6 +84,9 @@ const Text = styled.p`
     text-align: center;
     color: white;
     font-size: 1.2em;
+  }
+  @media screen and (max-width: ${props => props.theme.screen.small}) {
+    margin-bottom: 5px;
   }
 `
 const ImgContainer = styled.div`
@@ -97,7 +106,7 @@ const ImgContainer = styled.div`
     width: 70%;
   }
   @media screen and (max-width: ${props => props.theme.screen.small}) {
-    width: 100%;
+    width: 90%;
   }
 `
 const CyclistImg = styled.img`
