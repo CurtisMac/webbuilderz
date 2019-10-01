@@ -1,7 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-//import { graphql } from "gatsby"
-//import Img from "gatsby-image"
 
 //Components
 import Button from "../styledButton"
@@ -16,8 +14,9 @@ const Container = styled.div`
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  background-color: ${props => props.theme.colors.pri3};
-  background-image: url(${whtBlb}), ${props => props.theme.gradients.colour};
+  /* background-color: ${props => props.theme.colors.pri3};
+  background-image: url(${whtBlb}), ${props => props.theme.gradients.colour}; */
+  background-image: url(${whtBlb});
   background-repeat: no-repeat;
   background-size: 100%;
   min-height: calc(100vh - ${props => props.theme.size.navHeader});

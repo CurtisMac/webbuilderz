@@ -6,11 +6,13 @@ import PricingCards from "../pricingCards"
 import Button from "../styledButton"
 
 //Styles
-const Container = styled.div``
+const Container = styled.div`
+  background-color: white;
+
+  padding-bottom: 35px;
+`
 const ButtonWrapper = styled.div`
   text-align: center;
-  padding: 15px;
-  margin-bottom: 25px;
 `
 
 const index = () => (
