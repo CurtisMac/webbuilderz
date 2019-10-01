@@ -1,0 +1,76 @@
+[
+  {
+    "title": "Silver",
+    "price": {
+      "gbp": 199,
+      "cad": 249
+    },
+    "origPrice": {
+      "gbp": 299,
+      "cad": 349
+    },
+    "features": [
+      "Custom Website",
+      "Configure domain name",
+      "Ongoing Website maintenance",
+      "Changes to website - up to 1 hour p/m",
+      "1 Social Media account",
+      "2 posts per month",
+      "Ongoing basic analytics",
+      "Ongoing support"
+    ]
+  },
+  {
+    "title": "Gold",
+    "price": {
+      "gbp": 299,
+      "cad": 349
+    },
+    "origPrice": {
+      "gbp": 399,
+      "cad": 449
+    },
+    "features": [
+      "Custom Website",
+      "Configure domain name",
+      "Onging Website maintenance",
+      "Changes to website - up to 4 hours p/m",
+      "Custom blog",
+      "1 Blog post per month",
+      "2 Social Media accounts",
+      "2 post per week",
+      "Ongoing analytics ",
+      "Ongoing SEO",
+      "Business Listing on Google",
+      "Ongoing support"
+    ]
+  },
+  {
+    "title": "Platinum",
+    "price": {
+      "gbp": 399,
+      "cad": 549
+    },
+    "origPrice": {
+      "gbp": 499,
+      "cad": 649
+    },
+    "features": [
+      "Custom Website",
+      "Configure domain name",
+      "Onging Website maintenance",
+      "Changes to website - up to 4 hours p/m",
+      "Custom blog",
+      "1 Blog post per month",
+      "2 Social Media accounts",
+      "2 post per week",
+      "Ongoing analytics",
+      "Ongoing SEO",
+      "Ongoing support",
+      "Business Listing on Google",
+      "Custom CRM (up to 100,000 contacts)",
+      "Quartely email Newsletter",
+      "Quarterly targeted email"
+    ]
+  }
+]
