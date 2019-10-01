@@ -16,14 +16,13 @@ const Container = styled.div`
   background-image: ${props =>
     `linear-gradient(to top left, ${props.theme.colors.sec3}, ${props.theme.colors.pri3})`};
   height: 100vh;
-  padding: 2em;
   margin: auto 0;
   color: white;
   @media only screen and (max-width: 1000px) {
-    padding: 5em;
+    padding: 0 5em;
   }
   @media only screen and (max-width: 750px) {
-    padding: 2em;
+    padding: 0 2em;
   }
 `
 const H1 = styled.h1`
@@ -47,7 +46,7 @@ const StyledLink = styled(Link)`
 
 //Component
 const index = () => (
-  <Layout>
+  <Layout noNav>
     <Container>
       <StyledLink to="/">
         <Logo src={logo} alt="Logo" />
