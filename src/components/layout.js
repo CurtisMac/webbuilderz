@@ -6,10 +6,11 @@ import "../utils/styles.css"
 
 import NavHeader from "../components/mainNav"
 
-export default ({ children }) => (
+export default props => (
   <div className="application">
     <Helmet>
-      <title>WebBuilderz</title>
+      <html lang="en"></html>
+      <title>{props.title}</title>
       <link
         href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
         rel="stylesheet"
@@ -17,8 +18,8 @@ export default ({ children }) => (
     </Helmet>
     <ThemeProvider theme={theme}>
       <>
-        <NavHeader />
-        {children}
+        {props.noNav ? "" : <NavHeader />}
+        {props.children}
       </>
     </ThemeProvider>
   </div>
