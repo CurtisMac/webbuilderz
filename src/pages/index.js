@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import Landing from "../components/home/landing"
 import SubLanding from "../components/home/subLanding"
 import Pricing from "../components/home/Pricing"
+import ArrowDivider from "../components/arrowDivider"
 
 //Styles
 const Container = styled.div`
@@ -18,6 +19,7 @@ const index = ({ data }) => (
   <Layout title="WebBuilderz ecommerce web development">
     <Container>
       <Landing />
+      <ArrowDivider />
       <Pricing />
       <SubLanding />
     </Container>
