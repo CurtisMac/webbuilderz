@@ -5,7 +5,7 @@ import styled from "styled-components"
 //Components
 
 //Assets
-import logo from "../data/img/logo.svg"
+import logo from "../data/img/logo.png"
 
 //Styles
 const Container = styled.header`
@@ -37,6 +37,7 @@ const LinkList = styled.ul`
   padding: 0;
   padding-top: 25px;
   display: flex;
+  /* display: none; */
   flex-flow: row nowrap;
   @media screen and (max-width: ${props => props.theme.screen.medium}) {
     padding-top: 0;
