@@ -11,7 +11,7 @@ const Container = styled.div`
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  margin: 20px 0;
+  margin: 0 20px;
   @media screen and (max-width: ${props => props.theme.screen.large}) {
     flex-flow: column;
     align-items: center;
