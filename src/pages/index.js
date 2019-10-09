@@ -4,8 +4,6 @@ import styled from "styled-components"
 //Components
 import Layout from "../components/layout"
 import Landing from "../components/home/landing"
-import SubLanding from "../components/home/subLanding"
-import Pricing from "../components/home/Pricing"
 
 //Styles
 const Container = styled.div`
@@ -18,8 +16,6 @@ const index = ({ data }) => (
   <Layout title="WebBuilderz ecommerce web development">
     <Container>
       <Landing />
-      <Pricing />
-      <SubLanding />
     </Container>
   </Layout>
 )
