@@ -173,10 +173,7 @@ const index = () => (
         }}
         onSubmit={(values, { resetForm, setStatus }) => {
           axios
-            .post(
-              "https://us-central1-webbuilderz.cloudfunctions.net/contact",
-              values
-            )
+            .post("https://webbuilderz.io/api/contact", values)
             .then(resp => {
               resetForm()
               setStatus({ msg: resp.data.message })
