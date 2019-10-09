@@ -37,7 +37,7 @@ const LinkList = styled.ul`
   padding: 0;
   padding-top: 25px;
   display: flex;
-  /* display: none; */
+  display: none; /* hide navBar while site is under development  */
   flex-flow: row nowrap;
   @media screen and (max-width: ${props => props.theme.screen.medium}) {
     padding-top: 0;
