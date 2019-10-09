@@ -12,6 +12,7 @@ const Button = styled(Link)`
   border-radius: 25px;
   font-weight: bold;
   text-align: center;
+  box-shadow: ${props => props.theme.shadow.box};
 `
 
 //Component
