@@ -1,0 +1,60 @@
+backend:
+  name: github
+  repo: CurtisMac/webbuilderz
+  branch: development
+  base_url: https://us-central1-webbuilderz.cloudfunctions.net
+  auth_endpoint: /oauth/auth
+
+media_folder: src/data/uploads
+publish_mode: editorial_workflow
+site_url: https://webbuilderz.io
+display_url: https://webbuilderz.io
+logo_url: /logo.png
+
+collections:
+  - name: blog
+    label: Blog
+    folder: src/data/content/blog
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - {
+          label: "Featured Image",
+          name: "thumbnail",
+          widget: "image",
+          required: false,
+        }
+      - { name: body, label: Body, widget: markdown }
+      - { name: author, label: Author }
+      - {
+          name: pub_date,
+          label: Published Date,
+          widget: datetime,
+          timeFormat: false,
+        }
+      - {
+          name: update_date,
+          label: Updated Date,
+          widget: datetime,
+          default: "",
+          required: false,
+        }
+      - { name: path, label: Path }
+
+  - name: pages
+    label: Pages
+    files:
+      - label: About Page
+        name: about
+        file: src/data/content/about.yml
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: markdown }
+          - label: Team
+            name: team
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Role, name: role, widget: string }
+              - { label: Bio, name: bio, widget: markdown }
+              - { label: Photo, name: photo, widget: image }
