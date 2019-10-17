@@ -23,5 +23,6 @@ module.exports = {
       options: { path: `${__dirname}/src/data/`, name: "data" },
     },
     `gatsby-transformer-json`,
+    `gatsby-transformer-yaml`,
   ],
 }
