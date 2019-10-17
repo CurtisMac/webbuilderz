@@ -1,0 +1,13 @@
+title: About Us
+intro: >-
+  WebBuilderz helps you grow your business through by harnessing the power of
+  the internet.
+team:
+  - bio: Luke MacLeod took a course in marketing. The rest is history.
+    name: Luke MacLeod
+    photo: /src/data/uploads/snacho.png
+    role: Marketing
+  - bio: The nerd
+    name: Curtis MacLeod
+    photo: /src/data/uploads/ublym.png
+    role: Web Developer
