@@ -6,7 +6,7 @@ backend:
   auth_endpoint: /oauth/auth
 
 media_folder: src/data/uploads
-public_folder: ../uploads
+public_folder: /uploads
 publish_mode: editorial_workflow
 site_url: https://webbuilderz.io
 display_url: https://webbuilderz.io
