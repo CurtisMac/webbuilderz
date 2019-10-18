@@ -3,9 +3,9 @@ aboutIntro: We are some dudes who do some things
 team:
   - bio: Luke MacLeod took a course in marketing. The rest is history.
     name: Luke MacLeod
-    photo: /src/data/uploads/snacho.png
+    photo: /../uploads/snacho.png
     role: Marketing
   - bio: The nerd
     name: Curtis MacLeod
-    photo: /src/data/uploads/ublym.png
+    photo: /../uploads/ublym.png
     role: Web Developer
