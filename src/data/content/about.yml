@@ -7,3 +7,7 @@ team:
     name: Luke MacLeod
     photo: /uploads/snacho.png
     role: Head of Marketing
+  - bio: Curtis is our resident geek.
+    name: Curtis MacLeod
+    photo: /uploads/ublym.png
+    role: CTO
