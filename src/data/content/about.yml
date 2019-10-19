@@ -1,0 +1,13 @@
+aboutTitle: About Us
+aboutIntro: >-
+  This is just some basic info about our business and what we do. It might be
+  basic, but its going to be awesome!
+team:
+  - bio: Luke loves marketing and is always trying to sell somebody something.
+    name: Luke MacLeod
+    photo: /uploads/snacho.png
+    role: Head of Marketing
+  - bio: Curtis is our resident geek.
+    name: Curtis MacLeod
+    photo: /uploads/ublym.png
+    role: CTO
