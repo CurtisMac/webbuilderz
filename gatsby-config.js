@@ -24,5 +24,13 @@ module.exports = {
     },
     `gatsby-transformer-json`,
     `gatsby-transformer-yaml`,
+    `gatsby-plugin-netlify-cms-paths`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        commonmark: true,
+        plugins: [`gatsby-plugin-netlify-cms-paths`],
+      },
+    },
   ],
 }
