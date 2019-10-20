@@ -41,7 +41,6 @@ collections:
           required: false,
         }
       - { name: path, label: Path }
-
   - name: pages
     label: Pages
     files:
@@ -59,3 +58,65 @@ collections:
               - { label: Role, name: role, widget: string }
               - { label: Bio, name: bio, widget: markdown }
               - { label: Photo, name: photo, widget: image }
+      - label: Home Page
+        name: home
+        file: src/data/content/homePage.yml
+        fields:
+          - { label: Hero Text, name: heroText, widget: string }
+          - { label: Hero Sub-Text, name: heroSubText, widget: text }
+          - label: Sections
+            name: section
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Sub Text,
+                  name: subText,
+                  widget: text,
+                  required: false,
+                }
+              - { label: Text, name: text, widget: markdown, required: false }
+              - { label: Image, name: image, widget: image, required: false }
+      - label: FAQ Page
+        name: faq
+        file: src/data/content/faqPage.yml
+        fields:
+          - label: FAQ
+            name: faq
+            widget: list
+            fields:
+              - { label: Question, name: question, widget: string }
+              - { label: Answer, name: answer, widget: text }
+  - name: misc
+    label: Miscellaneous
+    files:
+      - label: Pricing
+        name: pricing
+        file: src/data/content/pricing.yml
+        fields:
+          - label: Packages Collection
+            name: packages
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - label: package
+                name: Package
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - label: Price
+                    name: price
+                    widget: list
+                    fields:
+                      - { label: Currency, name: currency, widget: string }
+                      - {
+                          label: Amount,
+                          name: amount,
+                          widget: number,
+                          valueType: int,
+                        }
+                  - label: Features
+                    name: features
+                    widget: list
+                    fields:
+                      - { label: Feature, name: feature, widget: string }
