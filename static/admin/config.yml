@@ -15,7 +15,7 @@ logo_url: /logo.png
 collections:
   - name: blog
     label: Blog
-    folder: src/data/content/blog
+    folder: src/data/blog
     create: true
     fields:
       - { name: title, label: Title }
@@ -46,7 +46,7 @@ collections:
     files:
       - label: About Page
         name: about
-        file: src/data/content/about.yml
+        file: src/data/content/about/about.yml
         fields:
           - { label: Title, name: aboutTitle, widget: string }
           - { label: Intro, name: aboutIntro, widget: markdown }
@@ -58,9 +58,19 @@ collections:
               - { label: Role, name: role, widget: string }
               - { label: Bio, name: bio, widget: markdown }
               - { label: Photo, name: photo, widget: image }
+      - label: FAQ Page
+        name: faq
+        file: src/data/content/faq/faqPage.yml
+        fields:
+          - label: FAQ
+            name: faq
+            widget: list
+            fields:
+              - { label: Question, name: question, widget: string }
+              - { label: Answer, name: answer, widget: text }
       - label: Home Page
         name: home
-        file: src/data/content/homePage.yml
+        file: src/data/content/home/homePage.yml
         fields:
           - { label: Hero Text, name: heroText, widget: string }
           - { label: Hero Sub-Text, name: heroSubText, widget: text }
@@ -77,22 +87,12 @@ collections:
                 }
               - { label: Text, name: text, widget: markdown, required: false }
               - { label: Image, name: image, widget: image, required: false }
-      - label: FAQ Page
-        name: faq
-        file: src/data/content/faqPage.yml
-        fields:
-          - label: FAQ
-            name: faq
-            widget: list
-            fields:
-              - { label: Question, name: question, widget: string }
-              - { label: Answer, name: answer, widget: text }
   - name: misc
     label: Miscellaneous
     files:
       - label: Pricing
         name: pricing
-        file: src/data/content/pricing.yml
+        file: src/data/content/misc/pricing.yml
         fields:
           - label: Packages Collection
             name: packages
