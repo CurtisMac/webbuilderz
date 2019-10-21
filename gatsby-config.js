@@ -24,6 +24,10 @@ module.exports = {
     },
     `gatsby-transformer-json`,
     `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: { path: `${__dirname}/src/data/content`, name: "content" },
+    },
     `gatsby-plugin-netlify-cms-paths`,
     {
       resolve: `gatsby-transformer-remark`,
