@@ -1,8 +1,10 @@
 heroText: Web Development & Digital Marketing
 heroSubText: Helping you harness the power of the WEB to BUILD your business
 section:
-  - subText: >-
-      Modern businesses need more than just a website, they need an entire
-      digital presence. We build you an online presence so your business can get
-      maximum growth from your digital efforts.
-    title: Problem
+  - image: /uploads/bulb.png
+    subText: |
+      We help you Plan, Build, Grow, & Maintain your entire eCommerce strategy
+    text: >-
+      We take the time to get to know your business and tailor our services to
+      meet your unique requirements
+    title: Our Offering
