@@ -126,24 +126,27 @@ const StyledButton = styled(Button)`
 `
 
 //Component
-const index = () => (
-  <Container>
-    <FlexContainer>
-      <MobileGradient src={mblGrad} alt="" />
-      <TextContainer>
-        <Title>ECOMMERCE WEB DEVELOPMENT</Title>
-        <Text>Excuse our mess, this site is under development</Text>
-      </TextContainer>
-      <ImgContainer>
-        <CyclistImg src={cyclist} alt="" />
-      </ImgContainer>
-    </FlexContainer>
-    <ButtonContainer>
-      <StyledButton primary={1} to="/contact">
-        GET IN TOUCH
-      </StyledButton>
-    </ButtonContainer>
-  </Container>
-)
+const index = props => {
+  const cnt = props.content
+  return (
+    <Container>
+      <FlexContainer>
+        <MobileGradient src={mblGrad} alt="" />
+        <TextContainer>
+          <Title>{cnt.heroText}</Title>
+          <Text>{cnt.heroSubText}</Text>
+        </TextContainer>
+        <ImgContainer>
+          <CyclistImg src={cyclist} alt="" />
+        </ImgContainer>
+      </FlexContainer>
+      <ButtonContainer>
+        <StyledButton primary={1} to="/contact">
+          GET IN TOUCH
+        </StyledButton>
+      </ButtonContainer>
+    </Container>
+  )
+}
 
 export default index
