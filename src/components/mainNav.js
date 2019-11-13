@@ -69,10 +69,12 @@ export default () => (
     <Link to="/">
       <Logo src={logo} alt="webbuilderz logo" />
     </Link>
-    <LinkList>
-      <ListLink to="/">Home</ListLink>
-      <ListLink to="/about/">About</ListLink>
-      <ListLink to="/contact/">Contact</ListLink>
-    </LinkList>
+    <nav>
+      <LinkList>
+        <ListLink to="/">Home</ListLink>
+        <ListLink to="/about/">About</ListLink>
+        <ListLink to="/contact/">Contact</ListLink>
+      </LinkList>
+    </nav>
   </Container>
 )
