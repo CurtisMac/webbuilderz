@@ -14,14 +14,12 @@ const Container = styled.div`
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  /* background-color: ${props => props.theme.colors.pri3};
-  background-image: url(${whtBlb}), ${props => props.theme.gradients.colour}; */
-  background-image: url(${whtBlb});
+  background-color: ${props => props.theme.colors.pri3};
+  background-image: url(${whtBlb}), ${props => props.theme.gradients.colour};
   background-repeat: no-repeat;
   background-size: 100%;
   min-height: calc(100vh - ${props => props.theme.size.navHeader});
   padding: 0 2em;
-  /* position: relative; */
   @media screen and (max-width: ${props => props.theme.screen.large}) {
     background-size: 115%;
   }

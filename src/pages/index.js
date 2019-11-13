@@ -4,25 +4,20 @@ import { graphql } from "gatsby"
 
 //Components
 import Layout from "../components/layout"
-import Landing from "../components/home/landing"
-import SubLanding from "../components/home/subLanding"
-import Pricing from "../components/home/Pricing"
+import Hero from "../components/home/hero"
 import ArrowDivider from "../components/arrowDivider"
 
 //Styles
 const Container = styled.div`
-  background-color: ${props => props.theme.colors.pri3};
-  background-image: ${props => props.theme.gradients.colour};
-  background-attachment: fixed;
+  max-width: 1024px;
+  margin: 0 auto;
 `
 
 const index = ({ data }) => (
   <Layout title="WebBuilderz ecommerce web development">
+    <Hero content={data.hero} />
     <Container>
-      <Landing content={data.landing} />
       <ArrowDivider />
-      <Pricing />
-      <SubLanding />
     </Container>
   </Layout>
 )
@@ -31,7 +26,7 @@ export default index
 
 export const query = graphql`
   {
-    landing: homeYaml {
+    hero: homeYaml {
       heroSubText
       heroText
     }
