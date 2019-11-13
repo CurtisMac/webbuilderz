@@ -1,7 +1,8 @@
 heroText: Web Development & Digital Marketing
 heroSubText: Helping you harness the power of the WEB to BUILD your business
 section:
-  - image: /uploads/bulb.png
+  - cards: []
+    image: /uploads/bulb.png
     subText: |
       We help you Plan, Build, Grow, & Maintain your entire eCommerce strategy
     text: >-
