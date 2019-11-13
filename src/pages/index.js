@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { graphql } from "gatsby"
 
 //Components
 import Layout from "../components/layout"
@@ -18,7 +19,7 @@ const Container = styled.div`
 const index = ({ data }) => (
   <Layout title="WebBuilderz ecommerce web development">
     <Container>
-      <Landing />
+      <Landing content={data.landing} />
       <ArrowDivider />
       <Pricing />
       <SubLanding />
@@ -27,3 +28,12 @@ const index = ({ data }) => (
 )
 
 export default index
+
+export const query = graphql`
+  {
+    landing: homeYaml {
+      heroSubText
+      heroText
+    }
+  }
+`
