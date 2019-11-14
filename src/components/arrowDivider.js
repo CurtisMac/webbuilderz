@@ -5,11 +5,11 @@ import styled from "styled-components"
 import arrow from "../data/img/arrow.svg"
 
 const Container = styled.div`
-  margin-top: -25px;
+  margin-top: -35px;
   height: 140px;
   background-image: url(${arrow});
   background-repeat: no-repeat;
   background-position: center;
 `
 
-export default () => <Container></Container>
+export default () => <Container />
