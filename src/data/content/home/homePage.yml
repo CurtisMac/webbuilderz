@@ -12,7 +12,4 @@ webDev:
   subTitle: We build modern websites
   text: Sell to your customers wherever and whenever they are shopping
   title: Web Development
-sections:
-  - subText: We build modern websites
-    text: Sell to your customers wherever and whenever they are shopping
-    title: Web Development
+sections: []
