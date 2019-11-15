@@ -16,9 +16,7 @@ webDev:
         One size does not fill all. We will make your site unique to your
         business and brand.
       title: Customization
-    - color:
-        - label: Primary One (Main Yellow)
-          value: pri1
+    - color: pri1
       image: /uploads/icon.png
       text: >-
         We will help you integrate your online store into all the functions and
