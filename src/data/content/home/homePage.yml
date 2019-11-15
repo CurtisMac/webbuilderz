@@ -1,13 +1,11 @@
 hero:
-  heroText: Web Development & Digital Marketing
   heroSubText: Helping you harness the power of the WEB to BUILD your business
-heroText: ''
-heroSubText: ''
-section1:
+  heroText: Web Development & Digital Marketing
+about:
   image: /uploads/bulb.png
   subTitle: 'We help you Plan, Build, Grow, & Maintain your entire eCommerce strategy'
   text: >-
-    We take the time to get to know your business and tailor our services to 
+    We take the time to get to know your business and tailor our services to
     meet your unique requirements
   title: Our Offering
 sections:
