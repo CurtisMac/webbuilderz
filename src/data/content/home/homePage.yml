@@ -3,12 +3,39 @@ hero:
   heroText: Web Development & Digital Marketing
 about:
   image: /uploads/bulb.png
-  subTitle: "We help you Plan, Build, Grow, & Maintain your entire eCommerce strategy"
+  subTitle: 'We help you Plan, Build, Grow, & Maintain your entire eCommerce strategy'
   text: >-
     We take the time to get to know your business and tailor our services to
     meet your unique requirements
   title: Our Offering
 webDev:
+  cards:
+    - color: pri2
+      image: /uploads/icon.png
+      text: >-
+        One size does not fill all. We will make your site unique to your
+        business and brand.
+      title: Customization
+    - color:
+        - label: Primary One (Main Yellow)
+          value: pri1
+      image: /uploads/icon.png
+      text: >-
+        We will help you integrate your online store into all the functions and
+        workflows of your business.
+      title: Integrated
+    - color: pri3
+      image: /uploads/icon.png
+      text: >-
+        We follow industry best practices so your site is blazing fast &
+        optimized for search engines
+      title: Optimized
+    - color: pri4
+      image: /uploads/icon.png
+      text: >-
+        We'll provide the training and expertise you and your staff need to
+        become expert at running your store
+      title: Training
   subTitle: We build modern websites
   text: Sell to your customers wherever and whenever they are shopping
   title: Web Development
