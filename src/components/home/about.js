@@ -28,7 +28,6 @@ const ButtonWrapper = styled.div`
 //Component
 const index = props => {
   const cnt = props.content
-  console.log(cnt)
   return (
     <Row margin={"30px 0"}>
       <Column large={6} medium={12}>
@@ -41,7 +40,7 @@ const index = props => {
       </Column>
       <Column large={6} medium={12} padding={"10px 0"}>
         <Title color="pri4">{cnt.title}</Title>
-        <SubTitle>{cnt.subText}</SubTitle>
+        <SubTitle>{cnt.subTitle}</SubTitle>
         <Text>{cnt.text}</Text>
         <ButtonWrapper>
           <Button to="/about" invert color="pri4">
