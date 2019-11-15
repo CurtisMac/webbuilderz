@@ -3,7 +3,7 @@ hero:
   heroText: Web Development & Digital Marketing
 about:
   image: /uploads/bulb.png
-  subTitle: 'We help you Plan, Build, Grow, & Maintain your entire eCommerce strategy'
+  subTitle: "We help you Plan, Build, Grow, & Maintain your entire eCommerce strategy"
   text: >-
     We take the time to get to know your business and tailor our services to
     meet your unique requirements
@@ -12,4 +12,3 @@ webDev:
   subTitle: We build modern websites
   text: Sell to your customers wherever and whenever they are shopping
   title: Web Development
-sections: []
