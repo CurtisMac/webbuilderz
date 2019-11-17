@@ -13,7 +13,7 @@ const PrimaryButton = styled(Link)`
   border-radius: 25px;
   font-weight: bold;
   text-align: center;
-  box-shadow: ${props => props.theme.shadow.box};
+  box-shadow: ${props => props.theme.shadow.button};
   min-width: 100px;
   display: inline-block;
   :hover {
@@ -21,7 +21,7 @@ const PrimaryButton = styled(Link)`
   }
   :active {
     transform: scale(1);
-    box-shadow: ${props => props.theme.shadow.boxActive};
+    box-shadow: ${props => props.theme.shadow.buttonActive};
   }
 `
 const InvertedButton = styled(PrimaryButton)`
@@ -31,8 +31,8 @@ const InvertedButton = styled(PrimaryButton)`
 `
 
 //Component
-const index = props => {
-  if (props.invert) {
+const index = ({ invert, ...props }) => {
+  if (invert) {
     return (
       <InvertedButton {...props} to={props.to}>
         {props.children}
