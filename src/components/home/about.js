@@ -30,7 +30,7 @@ const index = props => {
   const cnt = props.content
   return (
     <Row margin={"30px 0"}>
-      <Column large={6} medium={12}>
+      <Column col={6} col_md={12}>
         <Image>
           <Img
             fluid={cnt.image.childImageSharp.fluid}
@@ -38,7 +38,7 @@ const index = props => {
           />
         </Image>
       </Column>
-      <Column large={6} medium={12} padding={"10px 0"}>
+      <Column col={6} col_md={12} padding={"10px 0"}>
         <Title color="pri4">{cnt.title}</Title>
         <SubTitle>{cnt.subTitle}</SubTitle>
         <Text>{cnt.text}</Text>
