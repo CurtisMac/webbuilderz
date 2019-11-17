@@ -72,21 +72,47 @@ collections:
         name: home
         file: src/data/content/home/homePage.yml
         fields:
-          - { label: Hero Text, name: heroText, widget: string }
-          - { label: Hero Sub-Text, name: heroSubText, widget: text }
-          - label: Sections
-            name: section
-            widget: list
+          - label: Hero Section
+            name: hero
+            widget: object
             fields:
-              - { label: Title, name: title, widget: string, required: false }
-              - {
-                  label: Sub Text,
-                  name: subText,
-                  widget: text,
-                  required: false,
-                }
-              - { label: Text, name: text, widget: markdown, required: false }
-              - { label: Image, name: image, widget: image, required: false }
+              - { label: Hero Text, name: heroText, widget: string }
+              - { label: Hero Sub-Text, name: heroSubText, widget: text }
+          - label: About Section
+            name: about
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Sub Title, name: subTitle, widget: text }
+              - { label: Text, name: text, widget: text }
+              - { label: Image, name: image, widget: image }
+          - label: Web Development
+            name: webDev
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Sub Title, name: subTitle, widget: text }
+              - { label: Text, name: text, widget: text }
+              - label: Cards
+                name: cards
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Text, name: text, widget: string }
+                  - label: Color
+                    name: color
+                    widget: select
+                    default: pri1
+                    options:
+                      - { label: "Primary One (Main Yellow)", value: "pri1" }
+                      - { label: "Primary Two (Dark Purple)", value: "pri2" }
+                      - { label: "Primary Three (Teal)", value: "pri3" }
+                      - { label: "Primary Four (Magenta)", value: "pri4" }
+                      - { label: "Accent One (Chocolate)", value: "acc1" }
+                      - { label: "Accent Two (Light Yellow)", value: "acc2" }
+                      - { label: "Accent Three (Black)", value: "acc3" }
+                      - { label: "Accent Four (Sky Blue)", value: "acc4" }
+                  - { label: Image, name: image, widget: image }
   - name: misc
     label: Miscellaneous
     files:
