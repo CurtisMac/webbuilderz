@@ -40,5 +40,31 @@ webDev:
 shopify:
   image: /uploads/shopify-partner_s.png
   text: >-
+    **This input is not currently working, notify me of any changes and I will
+    enter them manually** -CM
+
     When it comes to building eCommerce experiences, Shopify is our platform of
     choice. Find out more about <a href="https://shopify.com">Shopify</a>
+marketing:
+  cards:
+    - color: pri3
+      image: /uploads/icon.png
+      title: Content Marketing
+    - color: pri4
+      image: /uploads/icon.png
+      title: PPC
+    - color: acc4
+      image: /uploads/icon.png
+      title: Social Media Marketing
+    - color: pri1
+      image: /uploads/icon.png
+      title: Landing Pages & Funnels
+    - color: pri2
+      image: /uploads/icon.png
+      title: SEO
+  image: /uploads/image326.png
+  subTitle: 'A wholistic approach '
+  text: >-
+    We will build you a customized marketing plan that is tailored to your
+    unique business goals and budget.
+  title: Digital Marketing
