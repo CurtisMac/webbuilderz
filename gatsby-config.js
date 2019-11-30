@@ -22,13 +22,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: { path: `${__dirname}/src/data/`, name: "data" },
     },
-    `gatsby-transformer-json`,
-    `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-source-filesystem`,
       options: { path: `${__dirname}/src/data/content`, name: "content" },
     },
     `gatsby-plugin-netlify-cms-paths`,
+    `gatsby-transformer-remark`,
+    `gatsby-transformer-json`,
+    `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
