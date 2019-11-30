@@ -47,9 +47,9 @@ shopify:
     choice. Find out more about <a href="https://shopify.com">Shopify</a>
 marketing:
   cards:
-    - color: pri3
+    - color: acc1
       image: /uploads/icon.png
-      title: Content Marketing
+      title: SEM
     - color: pri4
       image: /uploads/icon.png
       title: PPC
@@ -62,9 +62,9 @@ marketing:
     - color: pri2
       image: /uploads/icon.png
       title: SEO
-    - color: acc1
+    - color: pri3
       image: /uploads/icon.png
-      title: SEM
+      title: Content Marketing
   image: /uploads/2816896.png
   subTitle: 'A wholistic approach '
   text: >-
