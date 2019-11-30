@@ -71,3 +71,24 @@ marketing:
     We will build you a customized marketing plan that is tailored to your
     unique business goals and budget.
   title: Digital Marketing
+other:
+  cards:
+    - color: pri3
+      image: /uploads/icon.png
+      text: >-
+        We can save you massive time and money by retrieving product data
+        digitally from your suppliers where possible.
+      title: Webscraping
+    - color: pri1
+      image: /uploads/icon.png
+      text: >-
+        Save money and keep track of your earnings by having a payment system
+        that's fully integrated with all of your selling channels. 
+      title: Merchant Services
+    - color: pri4
+      image: /uploads/icon.png
+      text: >
+        From theme edits to custom app development, we are experts at all things
+        Shopify.
+      title: Shopify Development
+  title: Other Services
