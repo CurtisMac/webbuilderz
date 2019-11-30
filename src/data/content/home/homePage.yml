@@ -50,12 +50,12 @@ marketing:
     - color: acc1
       image: /uploads/icon.png
       title: SEM
-    - color: pri4
-      image: /uploads/icon.png
-      title: PPC
     - color: acc4
       image: /uploads/icon.png
       title: Social Media
+    - color: pri4
+      image: /uploads/icon.png
+      title: PPC
     - color: pri1
       image: /uploads/icon.png
       title: Landing Pages
