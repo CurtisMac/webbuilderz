@@ -34,9 +34,14 @@ const Text = styled.p`
   margin: 0;
   font-size: 0.9rem;
 `
+const Divider = styled.div`
+  border-bottom: 2px solid ${props => props.theme.colors.pri2};
+  width: 80%;
+  margin: 25px 0 0;
+`
 
 //Main Component
-const index = ({ className, large, ...props }) => {
+const index = ({ className, divider, ...props }) => {
   return (
     <Card className={className} {...props}>
       <Icon>
@@ -45,6 +50,7 @@ const index = ({ className, large, ...props }) => {
           alt={`${props.data.title} icon`}
         ></Img>
       </Icon>
+      {divider && <Divider />}
       <Title color={props.data.color}>{props.data.title}</Title>
       <Text>{props.data.text}</Text>
     </Card>
