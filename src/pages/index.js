@@ -11,6 +11,7 @@ import WebDev from "../components/home/webDevelopment"
 import Shopify from "../components/home/shopify"
 import DigitalMarketing from "../components/home/digitalMarketing"
 import OtherServices from "../components/home/otherServices"
+import CTA from "../components/home/cta"
 import { Container } from "../components/grid"
 
 //Styles
@@ -30,6 +31,7 @@ const index = ({ data }) => (
         <Shopify content={data.homeYaml.shopify} />
         <DigitalMarketing content={data.homeYaml.marketing} />
         <OtherServices content={data.homeYaml.other} />
+        <CTA content={data.homeYaml.cta} />
       </Container>
     </main>
   </Layout>
@@ -120,6 +122,12 @@ export const query = graphql`
             }
           }
         }
+      }
+      cta {
+        text
+        button
+        btnColor
+        bgColor
       }
     }
   }
