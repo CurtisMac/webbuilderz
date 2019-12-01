@@ -113,6 +113,96 @@ collections:
                       - { label: "Accent Three (Black)", value: "acc3" }
                       - { label: "Accent Four (Sky Blue)", value: "acc4" }
                   - { label: Image, name: image, widget: image }
+          - label: Shopify
+            name: shopify
+            widget: object
+            fields:
+              - { label: Text, name: text, widget: text }
+              - { label: Image, name: image, widget: image }
+          - label: Digital Marketing
+            name: marketing
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Sub Title, name: subTitle, widget: text }
+              - { label: Text, name: text, widget: text }
+              - { label: Image, name: image, widget: image }
+              - label: Cards
+                name: cards
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - label: Color
+                    name: color
+                    widget: select
+                    default: pri1
+                    options:
+                      - { label: "Primary One (Main Yellow)", value: "pri1" }
+                      - { label: "Primary Two (Dark Purple)", value: "pri2" }
+                      - { label: "Primary Three (Teal)", value: "pri3" }
+                      - { label: "Primary Four (Magenta)", value: "pri4" }
+                      - { label: "Accent One (Chocolate)", value: "acc1" }
+                      - { label: "Accent Two (Light Yellow)", value: "acc2" }
+                      - { label: "Accent Three (Black)", value: "acc3" }
+                      - { label: "Accent Four (Sky Blue)", value: "acc4" }
+                  - { label: Image, name: image, widget: image }
+          - label: Other Services
+            name: other
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Cards
+                name: cards
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Text, name: text, widget: text }
+                  - label: Color
+                    name: color
+                    widget: select
+                    default: pri1
+                    options:
+                      - { label: "Primary One (Main Yellow)", value: "pri1" }
+                      - { label: "Primary Two (Dark Purple)", value: "pri2" }
+                      - { label: "Primary Three (Teal)", value: "pri3" }
+                      - { label: "Primary Four (Magenta)", value: "pri4" }
+                      - { label: "Accent One (Chocolate)", value: "acc1" }
+                      - { label: "Accent Two (Light Yellow)", value: "acc2" }
+                      - { label: "Accent Three (Black)", value: "acc3" }
+                      - { label: "Accent Four (Sky Blue)", value: "acc4" }
+                  - { label: Image, name: image, widget: image }
+          - label: CTA
+            name: cta
+            widget: object
+            fields:
+              - { label: Tagline, name: text, widget: string }
+              - label: Background Color
+                name: bgColor
+                widget: select
+                default: pri1
+                options:
+                  - { label: "Primary One (Main Yellow)", value: "pri1" }
+                  - { label: "Primary Two (Dark Purple)", value: "pri2" }
+                  - { label: "Primary Three (Teal)", value: "pri3" }
+                  - { label: "Primary Four (Magenta)", value: "pri4" }
+                  - { label: "Accent One (Chocolate)", value: "acc1" }
+                  - { label: "Accent Two (Light Yellow)", value: "acc2" }
+                  - { label: "Accent Three (Black)", value: "acc3" }
+                  - { label: "Accent Four (Sky Blue)", value: "acc4" }
+              - { label: Button Text, name: button, widget: string }
+              - label: Button Color
+                name: btnColor
+                widget: select
+                default: pri1
+                options:
+                  - { label: "Primary One (Main Yellow)", value: "pri1" }
+                  - { label: "Primary Two (Dark Purple)", value: "pri2" }
+                  - { label: "Primary Three (Teal)", value: "pri3" }
+                  - { label: "Primary Four (Magenta)", value: "pri4" }
+                  - { label: "Accent One (Chocolate)", value: "acc1" }
+                  - { label: "Accent Two (Light Yellow)", value: "acc2" }
+                  - { label: "Accent Three (Black)", value: "acc3" }
+                  - { label: "Accent Four (Sky Blue)", value: "acc4" }
   - name: misc
     label: Miscellaneous
     files:
