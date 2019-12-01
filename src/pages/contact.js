@@ -249,7 +249,6 @@ const index = () => (
             <StyledButton
               forwardedAs="button"
               type="submit"
-              to="google.com"
               disabled={props.isSubmitting}
               primary
             >
