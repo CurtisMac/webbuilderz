@@ -27,16 +27,19 @@ const Container = styled.div`
     background-size: 115%;
   }
   @media screen and (max-width: ${props => props.theme.screen.medium}) {
-    background-size: 200%;
-    background-image: none;
+    background-size: 150%;
+    background-image: ${props => props.theme.gradients.colour};
   }
 `
 const MobileGradient = styled.img`
   display: none;
   @media screen and (max-width: ${props => props.theme.screen.medium}) {
     display: block;
-    width: 100vw;
-    margin-top: -5px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -2px;
   }
 `
 const FlexContainer = styled.div`
@@ -53,9 +56,12 @@ const TextContainer = styled.div`
   align-self: flex-start;
   padding: 5% 0 0 40px;
   @media screen and (max-width: ${props => props.theme.screen.medium}) {
-    padding: 5% 0 0 0;
+    padding: 13% 0 0 0;
     align-self: auto;
     width: 100%;
+  }
+  @media screen and (max-width: ${props => props.theme.screen.small}) {
+    padding: 15% 0 0 0;
   }
 `
 const Title = styled.h1`
