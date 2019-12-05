@@ -20,7 +20,7 @@ const Card = styled.div`
   padding: 20px;
 `
 const Icon = styled.div`
-  width: 30px;
+  width: 50px;
   margin: 0 auto;
 `
 const Title = styled.h3`
