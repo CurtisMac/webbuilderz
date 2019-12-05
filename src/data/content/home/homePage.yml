@@ -80,17 +80,17 @@ other:
         digitally from your suppliers where possible.
       title: Webscraping
     - color: pri1
-      image: /uploads/merchant.png
-      text: >-
-        Save money and keep track of your earnings by having a payment system
-        that's fully integrated with all of your selling channels. 
-      title: Merchant Services
-    - color: pri4
       image: /uploads/shopify_glyph.png
       text: >
         From theme edits to custom app development, we are experts at all things
         Shopify.
       title: Shopify Development
+    - color: pri4
+      image: /uploads/merchant.png
+      text: >-
+        Save money and keep track of your earnings by having a payment system
+        that's fully integrated with all of your selling channels. 
+      title: Merchant Services
   title: Other Services
 cta:
   bgColor: pri3
