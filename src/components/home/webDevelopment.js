@@ -103,8 +103,8 @@ const index = props => {
         </Column>
       </StyledRow>
       <ButtonWrapper>
-        <Button to="/about" color="pri3">
-          ABOUT US DUDE
+        <Button to="/contact" color="pri3">
+          CONTACT US
         </Button>
       </ButtonWrapper>
     </>
