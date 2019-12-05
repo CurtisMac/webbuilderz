@@ -11,30 +11,30 @@ about:
 webDev:
   cards:
     - color: pri2
-      image: /uploads/icon.png
+      image: /uploads/html.png
       text: >-
-        One size does not fill all. We will make your site unique to your
+        One size does not fill all. We will make you a website unique to your
         business and brand.
-      title: Customization
+      title: Customized
     - color: pri1
-      image: /uploads/icon.png
+      image: /uploads/puzzle.png
       text: >-
         We will help you integrate your online store into all the functions and
         workflows of your business.
       title: Integrated
     - color: pri3
-      image: /uploads/icon.png
+      image: /uploads/rocket.png
       text: >-
         We follow industry best practices so your site is blazing fast &
         optimized for search engines
       title: Optimized
     - color: pri4
-      image: /uploads/icon.png
+      image: /uploads/trophy.png
       text: >-
         We'll provide the training and expertise you and your staff need to
         become expert at running your store
       title: Training
-  subTitle: We build modern websites
+  subTitle: We build eCommerce websites
   text: Sell to your customers wherever and whenever they are shopping
   title: Web Development
 shopify:
@@ -74,19 +74,19 @@ marketing:
 other:
   cards:
     - color: pri3
-      image: /uploads/icon.png
+      image: /uploads/webscrape.png
       text: >-
         We can save you massive time and money by retrieving product data
         digitally from your suppliers where possible.
       title: Webscraping
     - color: pri1
-      image: /uploads/icon.png
+      image: /uploads/merchant.png
       text: >-
         Save money and keep track of your earnings by having a payment system
         that's fully integrated with all of your selling channels. 
       title: Merchant Services
     - color: pri4
-      image: /uploads/icon.png
+      image: /uploads/shopify_glyph.png
       text: >
         From theme edits to custom app development, we are experts at all things
         Shopify.
