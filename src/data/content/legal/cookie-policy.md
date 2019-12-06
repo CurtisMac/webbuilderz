@@ -3,8 +3,6 @@ title: Cookie Policy
 pub_date: 2019-12-06T21:53:35.825Z
 update_date: ''
 ---
-## COOKIE POLICY
-
 Please note you will need to remove/amend all highlighted text in this document.
 
 INFORMATION ABOUT OUR USE OF COOKIES
@@ -21,11 +19,11 @@ These are cookies that are required for the operation of our website. They inclu
 
 They allow us to recognize and count the number of visitors and to see how visitors move around our website when they are using it. This helps us to improve the way our website works, for example, by ensuring that users are finding what they are looking for easily. 
 
-## Functionality cookies								          
+## Functionality cookies
 
 These are used to recognize you when you return to our website. This enables us to personalize our content for you, greet you by name and remember your preferences (for example, your choice of language or region).
 
-## Targeting cookies						           
+## Targeting cookies
 
 These cookies record your visit to our website, the pages you have visited and the links you have followed. We will use this information to make our website and the advertising displayed on it more relevant to your interests. IF RELEVANT: \[We may also share this information with third parties for this purpose.]
 
