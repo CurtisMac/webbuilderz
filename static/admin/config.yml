@@ -203,6 +203,26 @@ collections:
                   - { label: "Accent Two (Light Yellow)", value: "acc2" }
                   - { label: "Accent Three (Black)", value: "acc3" }
                   - { label: "Accent Four (Sky Blue)", value: "acc4" }
+  - name: legal
+    label: Legal
+    folder: src/data/content/legal
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
+      - {
+          name: pub_date,
+          label: Published Date,
+          widget: datetime,
+          timeFormat: false,
+        }
+      - {
+          name: update_date,
+          label: Updated Date,
+          widget: datetime,
+          default: "",
+          required: false,
+        }
   - name: misc
     label: Miscellaneous
     files:
