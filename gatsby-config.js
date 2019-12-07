@@ -20,11 +20,15 @@ module.exports = {
     },
     {
       resolve: `gatsby-source-filesystem`,
-      options: { path: `${__dirname}/src/data/`, name: "data" },
+      options: { path: `${__dirname}/src/data/blog`, name: "blog" },
     },
     {
       resolve: `gatsby-source-filesystem`,
-      options: { path: `${__dirname}/src/data/content`, name: "content" },
+      options: { path: `${__dirname}/src/data/content/legal`, name: "legal" },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: { path: `${__dirname}/src/data/`, name: "data" },
     },
     `gatsby-plugin-netlify-cms-paths`,
     `gatsby-transformer-remark`,
