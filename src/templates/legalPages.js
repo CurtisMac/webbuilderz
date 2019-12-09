@@ -5,19 +5,30 @@ import styled from "styled-components"
 import { Container } from "../components/grid"
 
 //Styles
-const Body = styled.div``
+const Body = styled.div`
+  margin-bottom: 75px;
+  min-height: 100vh;
+`
 const Title = styled.h1`
   text-align: center;
 `
-
+const StyledDate = styled.p`
+  font-style: italic;
+`
 const index = ({ data }) => {
   const { frontmatter, html } = data.markdownRemark
+  const pubDate = new Date(frontmatter.pub_date).toLocaleDateString()
+  const updateDate = new Date(frontmatter.update_date).toLocaleDateString()
   return (
     <Layout>
       <Container>
         <Title>{frontmatter.title}</Title>
         <Body dangerouslySetInnerHTML={{ __html: html }} />
-        <p>{frontmatter.pub_date}</p>
+        <StyledDate>
+          {frontmatter.uDatedate_date
+            ? `Updated: ${updateDate}`
+            : `Published: ${pubDate}`}
+        </StyledDate>
       </Container>
     </Layout>
   )
@@ -29,6 +40,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         pub_date
+        update_date
         title
       }
     }
