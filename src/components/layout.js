@@ -4,7 +4,9 @@ import { theme } from "./theme"
 import { Helmet } from "react-helmet"
 import "../utils/styles.css"
 
-import NavHeader from "../components/mainNav"
+//Components
+import NavHeader from "./mainNav"
+import Footer from "./footer"
 
 export default props => (
   <div className="application">
@@ -20,6 +22,7 @@ export default props => (
       <>
         {props.noNav ? "" : <NavHeader />}
         {props.children}
+        {props.noFooter ? "" : <Footer />}
       </>
     </ThemeProvider>
   </div>
