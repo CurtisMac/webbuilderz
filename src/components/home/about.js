@@ -4,11 +4,14 @@ import styled from "styled-components"
 
 //Components
 import { Row, Column } from "../grid"
-import { Title, SubTitle, Text } from "./styles"
+import { Title, SubTitle, Text, SectionSpacing } from "./styles"
 import Button from "../styledButton"
 
 //Assets
 //Styles
+const Parent = styled.div`
+  margin: 110px 0 ${SectionSpacing};
+`
 const Image = styled.div`
   padding-right: 18%;
   @media (max-width: ${props => props.theme.screen.medium}) {
@@ -29,26 +32,28 @@ const ButtonWrapper = styled.div`
 const index = props => {
   const cnt = props.content
   return (
-    <Row margin={"30px 0"}>
-      <Column col={6} col_md={12}>
-        <Image>
-          <Img
-            fluid={cnt.image.childImageSharp.fluid}
-            alt="people planning an ecommerce strategy"
-          />
-        </Image>
-      </Column>
-      <Column col={6} col_md={12} padding={"10px 0"}>
-        <Title color="pri4">{cnt.title}</Title>
-        <SubTitle>{cnt.subTitle}</SubTitle>
-        <Text>{cnt.text}</Text>
-        <ButtonWrapper>
-          <Button to="/about" invert color="pri4">
-            ABOUT US
-          </Button>
-        </ButtonWrapper>
-      </Column>
-    </Row>
+    <Parent>
+      <Row margin={"30px 0"}>
+        <Column col={6} col_md={12}>
+          <Image>
+            <Img
+              fluid={cnt.image.childImageSharp.fluid}
+              alt="people planning an ecommerce strategy"
+            />
+          </Image>
+        </Column>
+        <Column col={6} col_md={12} padding={"10px 0"}>
+          <Title color="pri4">{cnt.title}</Title>
+          <SubTitle>{cnt.subTitle}</SubTitle>
+          <Text>{cnt.text}</Text>
+          <ButtonWrapper>
+            <Button to="/about" invert color="pri4">
+              ABOUT US
+            </Button>
+          </ButtonWrapper>
+        </Column>
+      </Row>
+    </Parent>
   )
 }
 
