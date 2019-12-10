@@ -41,5 +41,13 @@ module.exports = {
         plugins: [`gatsby-plugin-netlify-cms-paths`],
       },
     },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-PLHF577",
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: "gatsby" },
+      },
+    },
   ],
 }
