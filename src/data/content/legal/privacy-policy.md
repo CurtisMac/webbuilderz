@@ -7,35 +7,28 @@ This is privacy notice of Webbuilderz (legal name: Curtis MacLeod DBA WebBuilder
 
 We respect your privacy and are determined to protect your personal data. The purpose of this privacy notice is to inform you as to how we look after your personal data when you visit our website (regardless of where you visit it from). We’ll also tell you about your privacy rights and how the data protection law protects you.
 
-This privacy notice is provided in a layered format so you can click through to the specific areas set out below. \[Alternatively you can download a pdf version of the policy here [INSERT LINK]]. 
+## Table of Contents
+
+1. WHO WE ARE AND IMPORTANT INFORMATION
+2. THE PERSONAL DATA WE COLLECT ABOUT YOU
+3. HOW WE COLLECT YOUR PERSONAL DATA
+4. HOW WE USE YOUR PERSONAL DATA
+5. WHO WE SHARE YOUR PERSONAL DATA WITH
+6. INTERNATIONAL TRANSFERS
+7. DATA SECURITY
+8. DATA RETENTION
+9. YOUR LEGAL RIGHTS
+10. CHANGES TO THIS NOTICE AND YOUR DUTY TO INFORM US OF CHANGES
+11. QUERIES, REQUESTS OR CONCERNS
+12. WHO WE ARE AND IMPORTANT INFORMATION 
+
+__
 
 1. WHO WE ARE AND IMPORTANT INFORMATION
 
-2. THE PERSONAL DATA WE COLLECT ABOUT YOU
+_What is the purpose of this privacy notice?_
 
-3. HOW WE COLLECT YOUR PERSONAL DATA
-
-4. HOW WE USE YOUR PERSONAL DATA
-
-5. WHO WE SHARE YOUR PERSONAL DATA WITH
-
-6. INTERNATIONAL TRANSFERS
-
-7. DATA SECURITY
-
-8. DATA RETENTION
-
-9. YOUR LEGAL RIGHTS
-
-10. CHANGES TO THIS NOTICE AND YOUR DUTY TO INFORM US OF CHANGES
-
-11. QUERIES, REQUESTS OR CONCERNS
-
-1. WHO WE ARE AND IMPORTANT INFORMATION 
-
-What is the purpose of this privacy notice?
-
-This privacy notice aims to give you information on how we collect and process your personal data through your use of this website, including any data you may provide through this website when you \[INSERT DETAILS FOR EXAMPLE: SIGN UP TO OUR NEWSLETTER/PURCHASE A PRODUCT OR SERVICE/TAKE PART IN A COMPETITION].
+This privacy notice aims to give you information on how we collect and process your personal data through your use of this website, including any data you may provide through this website when you sign up for our newsletter, purchase services or one of our products, contact us via email or our contact form, comment on our posts, or participate in a survey, contest or give away.
 
 This website is not intended for children and we do not knowingly collect data relating to children.
 
@@ -43,13 +36,9 @@ You must read this privacy notice together with any other privacy notice we may 
 
 Data controller(s)
 
-\[IF ONLY ONE ENTITY:] \[LEGAL ENTITY NAME] is the controller and responsible for your personal data (collectively referred to as \["COMPANY"], "we", "us" or "our" in this privacy notice). Our contact details are \[INSERT REGISTERED ADDRESS, EMAIL ADDRESS, POSTAL ADDRESS [AND TELEPHONE NUMBER]. For all data matters contact \[DATA PROTECTION OFFICER/OUR DATA REPRESENTATIVE] on \[insert contact details].]
+"Curtis MacLeod DBA WebBuilderz" is the controller and responsible for your personal data (collectively referred to as WebBuilderz, "we", "us" or "our" in this privacy notice). For all data matters contact us on privacy@webbuilderz.io.
 
-OR 
-
-\[IF SEVERAL ENTITIES PART OF A GROUP:] \[COMPANY] is made up of different legal entities, details of which can be found here \[INSERT LINK]. This privacy notice is issued on behalf of the \[COMPANY] Group so when we mention \["COMPANY"], "we", "us" or "our" in this privacy notice, we are referring to the relevant company in the \[COMPANY] Group responsible for processing your data. \[WE WILL LET YOU KNOW WHICH ENTITY WILL BE THE CONTROLLER FOR YOUR DATA WHEN YOU PURCHASE A PRODUCT OR SERVICE WITH US.] For all data matters contact \[DATA PROTECTION OFFICER/OUR DATA REPRESENTATIVE] on \[insert contact details].
-
-\[LEGAL ENTITY NAME] is the controller and responsible for this website.
+Curtis MacLeod DBA WebBuilderz is the controller and responsible for this website.
 
 Third-party links outside of our control
 
@@ -97,11 +86,7 @@ We will only use your personal data when the law allows us to. Most commonly, we
 
 •	Performance of Contract this means processing your data where it is necessary for the performance of a contract to which you are a party or to take steps at your request before entering into such a contract.
 
-
-
 •	Legitimate Interest this means the interest of our business in conducting and managing our business to enable us to give you the best service/product and the most secure experience. We make sure we consider and balance any potential impact on you (both positive and negative) and your rights before we process your personal data for our legitimate interests. We do not use your personal data for activities where our interests are overridden by the impact on you (unless we have your consent or are otherwise required or permitted to by law). You can obtain further information about how we assess our legitimate interests against any potential impact on you in respect of specific activities by \[INSERT DETAILS].
-
-
 
 •	Comply with a legal or regulatory obligation this means processing your personal data where it is necessary for compliance with a legal or regulatory obligation that we are subject to.
 
@@ -120,8 +105,6 @@ Purpose/Activity	Type of data	Lawful basis for processing including basis of leg
 To register you as a new customer	(a) Identity
 
 (b) Contact	Performance of a contract with you
-
-
 
 [Marketing 
 
