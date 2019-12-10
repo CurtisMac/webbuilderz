@@ -66,21 +66,13 @@ Where we need to collect your personal data by law, or under the terms of a cont
 
 3. HOW WE COLLECT YOUR PERSONAL DATA 
 
-We use different methods to collect data from and about you including through: 
+We use different methods to collect data from and about you including: 
 
-•	Directly. You may give us your \[IDENTITY, CONTACT AND FINANCIAL DATA] by filling in forms or by corresponding with us by post, phone, email or otherwise. This includes personal data you provide when you \[DELETE OR ADD TO THIS LIST AS APPROPRIATE]:
-
-•	\[Apply for our products or services;]
-
-•	\[Create an account on our website;]
-
-•	\[Subscribe to our service or publications;]
-
-•	\[Request marketing to be sent to you.]
+•	Directly. You may give us your  IDENTITY, CONTACT, FINANCIAL or OTHER DATA by filling in forms or by corresponding with us by post, phone, email, social media or otherwise. This includes personal data you provide when you, contact us, sign up for our products or services, subscribe to our mailing lists, create an account on our website, interact with is on social media or request marketing be sent to you.
 
 4. HOW WE USE YOUR PERSONAL DATA
 
-We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances \[PERSONALISE TO YOUR BUSINESS AS NEEDED]:
+We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances:
 
 •	Performance of Contract this means processing your data where it is necessary for the performance of a contract to which you are a party or to take steps at your request before entering into such a contract.
 
