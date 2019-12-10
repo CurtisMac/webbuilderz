@@ -7,6 +7,12 @@ This is privacy notice of Webbuilderz (legal name: Curtis MacLeod DBA WebBuilder
 
 We respect your privacy and are determined to protect your personal data. The purpose of this privacy notice is to inform you as to how we look after your personal data when you visit our website (regardless of where you visit it from). We’ll also tell you about your privacy rights and how the data protection law protects you.
 
+_What is the purpose of this privacy notice?_
+
+This privacy notice aims to give you information on how we collect and process your personal data through your use of this website, including any data you may provide through this website when you sign up for our newsletter, purchase services or one of our products, contact us via email or our contact form, comment on our posts, or participate in a survey, contest or give away.
+
+This website is not intended for children and we do not knowingly collect data relating to children.
+
 ## Table of Contents
 
 1. WHO WE ARE AND IMPORTANT INFORMATION
@@ -26,12 +32,6 @@ __
 
 1. WHO WE ARE AND IMPORTANT INFORMATION
 
-_What is the purpose of this privacy notice?_
-
-This privacy notice aims to give you information on how we collect and process your personal data through your use of this website, including any data you may provide through this website when you sign up for our newsletter, purchase services or one of our products, contact us via email or our contact form, comment on our posts, or participate in a survey, contest or give away.
-
-This website is not intended for children and we do not knowingly collect data relating to children.
-
 You must read this privacy notice together with any other privacy notice we may provide on specific occasions when we are collecting or processing personal data about you so that you are fully aware of how and why we are using your data. This privacy notice supplements the other notices and is not intended to override them.
 
 Data controller(s)
@@ -50,13 +50,13 @@ When you leave our website, we encourage you to read the privacy notice of every
 
 Personal data, or personal information, means any information about an individual from which that person can be identified. You can find out more about personal data from the Information Commissioners Office.
 
-We may collect, use, store and transfer different kinds of personal data about you which we have grouped together follows \[THIS IS AN EXAMPLE LIST, PLEASE PERSONALISE IT TO YOUR BUSINESS AND THE DATA THAT YOU COLLECT]:
+We may collect, use, store and transfer different kinds of personal data about you which we have grouped together as follows:
 
-•	Identity Data includes \[FIRST NAME/LAST NAME/ USERNAME/MARITAL STATUS/ TITLE/DATE OF BIRTH/GENDER].
+•	Identity Data includes:  FIRST NAME/LAST NAME/ USERNAME/ TITLE/DATE OF BIRTH.
 
-•	Contact Data includes \[BILLING ADDRESS/DELIVERY ADDRESS/EMAIL ADDRESS/ TELEPHONE NUMBERS].
+•	Contact Data includes: BILLING ADDRESS/DELIVERY ADDRESS/EMAIL ADDRESS/ TELEPHONE NUMBERS.
 
-\[WE ALSO COLLECT, USE AND SHARE AGGREGATED DATA SUCH AS STATISTICAL OR DEMOGRAPHIC DATA FOR ANY PURPOSE. AGGREGATED DATA MAY BE DERIVED FROM YOUR PERSONAL DATA BUT IS NOT CONSIDERED PERSONAL DATA IN LAW AS THIS DATA DOES NOT DIRECTLY OR INDIRECTLY REVEAL YOUR IDENTITY. FOR EXAMPLE, WE MAY AGGREGATE YOUR USAGE DATA TO CALCULATE THE PERCENTAGE OF USERS ACCESSING A SPECIFIC WEBSITE FEATURE. HOWEVER, IF WE COMBINE OR CONNECT AGGREGATED DATA WITH YOUR PERSONAL DATA SO THAT IT CAN DIRECTLY OR INDIRECTLY IDENTIFY YOU, WE TREAT THE COMBINED DATA AS PERSONAL DATA WHICH WILL BE USED IN ACCORDANCE WITH THIS PRIVACY NOTICE.]
+WE ALSO COLLECT, USE AND SHARE AGGREGATED DATA SUCH AS STATISTICAL OR DEMOGRAPHIC DATA FOR ANY PURPOSE. AGGREGATED DATA MAY BE DERIVED FROM YOUR PERSONAL DATA BUT IS NOT CONSIDERED PERSONAL DATA IN LAW AS THIS DATA DOES NOT DIRECTLY OR INDIRECTLY REVEAL YOUR IDENTITY. FOR EXAMPLE, WE MAY AGGREGATE YOUR USAGE DATA TO CALCULATE THE PERCENTAGE OF USERS ACCESSING A SPECIFIC WEBSITE FEATURE. HOWEVER, IF WE COMBINE OR CONNECT AGGREGATED DATA WITH YOUR PERSONAL DATA SO THAT IT CAN DIRECTLY OR INDIRECTLY IDENTIFY YOU, WE TREAT THE COMBINED DATA AS PERSONAL DATA WHICH WILL BE USED IN ACCORDANCE WITH THIS PRIVACY NOTICE.
 
 We do not collect any Special Categories of Personal Data about you (this includes details about your race or ethnicity, religious or philosophical beliefs, sex life, sexual orientation, political opinions, trade union membership, information about your health and genetic and biometric data). Nor do we collect any information about criminal convictions and offences.
 
@@ -67,8 +67,6 @@ Where we need to collect your personal data by law, or under the terms of a cont
 3. HOW WE COLLECT YOUR PERSONAL DATA 
 
 We use different methods to collect data from and about you including through: 
-
-[INSERT DETAILS: FOR EXAMPLE,
 
 •	Directly. You may give us your \[IDENTITY, CONTACT AND FINANCIAL DATA] by filling in forms or by corresponding with us by post, phone, email or otherwise. This includes personal data you provide when you \[DELETE OR ADD TO THIS LIST AS APPROPRIATE]:
 
