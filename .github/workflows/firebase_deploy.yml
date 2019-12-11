@@ -1,25 +1,25 @@
 name: Build and Deploy
 on:
   push:
-    branches: 
-      -  master
+    branches:
+      - master
 
 jobs:
   build:
     name: Build
     runs-on: windows-latest
     steps:
-    - name: Checkout Repo
-      uses: actions/checkout@master
-    - name: Install Dependencies
-      run: npm install
-    - name: Build
-      run: npm run build
-    - name: Archive Build
-      uses: actions/upload-artifact@master
-      with:
-        name: dist
-        path: dist    
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Archive Build
+        uses: actions/upload-artifact@master
+        with:
+          name: build
+          path: public
   deploy:
     name: Deploy
     needs: build
@@ -30,10 +30,10 @@ jobs:
       - name: Download Build Artifact
         uses: actions/download-artifact@master
         with:
-          name: dist
+          name: build
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
           args: deploy --only hosting
-        env: 
+        env:
           FIREBASE_TOKEN: ${{ secrets.firebase }}
