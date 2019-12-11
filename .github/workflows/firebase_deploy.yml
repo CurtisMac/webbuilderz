@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - master
-
 jobs:
   build:
     name: Build
@@ -15,7 +14,7 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-      - name: Archive Build
+      - name: Archive Build Artifact
         uses: actions/upload-artifact@master
         with:
           name: build
@@ -23,11 +22,11 @@ jobs:
   deploy:
     name: Deploy
     needs: build
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
-      - name: Download Build Artifact
+      - name: Download Build
         uses: actions/download-artifact@master
         with:
           name: build
