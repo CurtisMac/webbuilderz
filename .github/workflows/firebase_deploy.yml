@@ -14,7 +14,6 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-<<<<<<< HEAD
       - name: Archive Build Artifact
         uses: actions/upload-artifact@master
         with:
@@ -31,25 +30,6 @@ jobs:
         uses: actions/download-artifact@master
         with:
           name: build
-||||||| merged common ancestors
-      - name: Archive Build
-        uses: actions/upload-artifact@master
-        with:
-          name: build
-          path: public
-  deploy:
-    name: Deploy
-    needs: build
-    runs-on: windows-latest
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@master
-      - name: Download Build Artifact
-        uses: actions/download-artifact@master
-        with:
-          name: build
-=======
->>>>>>> 98cbfb3cace6c40689d5813c83637843345bcf47
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
