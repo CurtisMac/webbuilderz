@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
@@ -15,22 +15,6 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-      - name: Archive Build
-        uses: actions/upload-artifact@master
-        with:
-          name: build
-          path: /
-  deploy:
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@master
-      - name: Download Build Artifact
-        uses: actions/download-artifact@master
-        with:
-          name: build
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
