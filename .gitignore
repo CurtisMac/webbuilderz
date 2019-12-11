@@ -69,8 +69,6 @@ yarn-error.log
 .yarn-integrity
 
 # Firebase
-firebase.json
-.firebaserc
 .firebase/
 
 # Miscellaneous
