@@ -1,5 +1,5 @@
 ---
-title: ACCEPTABLE USE POLICY
+title: Acceptable Use Policy
 pub_date: 2019-12-06T22:00:00.204Z
 update_date: ''
 ---
