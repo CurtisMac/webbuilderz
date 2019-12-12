@@ -1,6 +1,6 @@
 ---
 title: Acceptable Use Policy
-pub_date: 2019-12-06T22:00:00.204Z
+pub_date: 2019-12-12T22:00:00.204Z
 update_date: ''
 ---
 This acceptable use policy sets out the terms between you and us under which you may access our website https://webbuilderz.io. This acceptable use policy applies to all users of, and visitors to, our site.
