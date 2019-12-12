@@ -7,9 +7,9 @@ PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY BEFORE USING THIS SITE
 
 TERMS OF WEBSITE USE
 
-This terms of use (together with the documents referred to in it) tells you the terms of use on which you may make use of our website \[DOMAIN ADDRESS] (our site), whether as a guest or a registered user. Use of our site includes accessing, browsing, or registering to use our site.
+This terms of use (together with the documents referred to in it) tells you the terms of use on which you may make use of our website https://webbuilderz.io (our site) and any of our sub-domains, whether as a guest or a registered user. Use of our site includes accessing, browsing, or registering to use our site.
 
-Please read these terms of use carefully before you start to use our site, as these will apply to your use of our site. We recommend that you print a copy of this for future reference. 
+Please read these terms of use carefully before you start to use our site, as these will apply to your use of our site. 
 
 By using our site, you confirm that you accept these terms of use and that you agree to comply with them. 
 
@@ -19,9 +19,9 @@ OTHER APPLICABLE TERMS
 
 These terms of use refer to the following additional terms, which also apply to your use of our site:
 
-·	Our Privacy Policy \[INSERT AS LINK TO SITE'S PRIVACY POLICY], which sets out the terms on which we process any personal data we collect from you, or that you provide to us. By using our site, you consent to such processing and you warrant that all data provided by you is accurate. 
+·	Our [Privacy Policy](/privacy-policy), which sets out the terms on which we process any personal data we collect from you, or that you provide to us. By using our site, you consent to such processing and you warrant that all data provided by you is accurate. 
 
-·	Our Acceptable Use Policy \[INSERT AS LINK TO ACCEPTABLE USE POLICY], which sets out the permitted uses and prohibited uses of our site. When using our site, you must comply with this Acceptable Use Policy.
+·	Our Acceptable Use Policy, which sets out the permitted uses and prohibited uses of our site. When using our site, you must comply with this Acceptable Use Policy.
 
 ·	Our Cookie Policy \[INSERT AS LINK TO COOKIE POLICY], which sets out information about the cookies on our site.
 
