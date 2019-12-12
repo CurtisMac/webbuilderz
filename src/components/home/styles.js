@@ -20,7 +20,7 @@ export const Text = styled.p`
   font-style: italic;
 `
 export const SectionSpacing = {
-  lg: `180px`,
+  lg: `150px`,
   md: `80px`,
   sm: `40px`,
 }
