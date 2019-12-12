@@ -138,6 +138,10 @@ const LoaderRing = styled.div`
     animation-delay: -0.15s;
   }
 `
+const ResponseMsg = styled.p`
+  color: white;
+  text-align: center;
+`
 const index = () => (
   <Layout>
     <Container>
@@ -252,6 +256,7 @@ const index = () => (
               />
               <StyledErrMsg name="message" component="div" />
             </MsgGroup>
+            {props.status ? <ResponseMsg>{props.status.msg}</ResponseMsg> : ""}
             <StyledButton
               forwardedAs="button"
               type="submit"
@@ -269,8 +274,6 @@ const index = () => (
                 "Submit"
               )}
             </StyledButton>
-            {props.status ? <p>{props.status.msg}</p> : ""}
-            {/* <p>{props.status ? props.status.msg : "Nothing"}</p> */}
           </FormContainer>
         )}
       />
