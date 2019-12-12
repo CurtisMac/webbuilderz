@@ -37,7 +37,7 @@ const LinkList = styled.ul`
   padding: 0;
   padding-top: 25px;
   display: flex;
-  display: none; /* hide navBar while site is under development  */
+  /* display: none; */
   flex-flow: row nowrap;
   @media screen and (max-width: ${props => props.theme.screen.medium}) {
     padding-top: 0;
@@ -69,10 +69,12 @@ export default () => (
     <Link to="/">
       <Logo src={logo} alt="webbuilderz logo" />
     </Link>
-    <LinkList>
-      <ListLink to="/">Home</ListLink>
-      <ListLink to="/about/">About</ListLink>
-      <ListLink to="/contact/">Contact</ListLink>
-    </LinkList>
+    <nav>
+      <LinkList>
+        <ListLink to="/">Home</ListLink>
+        <ListLink to="/about/">About</ListLink>
+        <ListLink to="/contact/">Contact</ListLink>
+      </LinkList>
+    </nav>
   </Container>
 )

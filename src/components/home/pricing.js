@@ -8,10 +8,10 @@ import Button from "../styledButton"
 //Styles
 const Container = styled.div`
   background-color: white;
-
   padding-bottom: 35px;
 `
 const ButtonWrapper = styled.div`
+  margin-top: 35px;
   text-align: center;
 `
 

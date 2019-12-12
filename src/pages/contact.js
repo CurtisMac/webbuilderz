@@ -26,6 +26,9 @@ const MobileGradient = styled.img`
   @media screen and (max-width: ${props => props.theme.screen.medium}) {
     display: block;
     width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
     margin-top: -2px;
   }
 `
@@ -41,6 +44,9 @@ const Title = styled.h1`
   font-size: 2em;
   text-align: center;
   color: ${props => props.theme.colors.pri1};
+  @media screen and (max-width: ${props => props.theme.screen.medium}) {
+    padding-top: 5%;
+  }
 `
 const FormContainer = styled(Form)`
   display: flex;
@@ -132,6 +138,10 @@ const LoaderRing = styled.div`
     animation-delay: -0.15s;
   }
 `
+const ResponseMsg = styled.p`
+  color: white;
+  text-align: center;
+`
 const index = () => (
   <Layout>
     <Container>
@@ -173,7 +183,10 @@ const index = () => (
         }}
         onSubmit={(values, { resetForm, setStatus }) => {
           axios
-            .post("https://webbuilderz.io/api/contact", values)
+            .post(
+              "https://us-central1-webbuilderz.cloudfunctions.net/contact",
+              values
+            )
             .then(resp => {
               resetForm()
               setStatus({ msg: resp.data.message })
@@ -243,10 +256,10 @@ const index = () => (
               />
               <StyledErrMsg name="message" component="div" />
             </MsgGroup>
+            {props.status ? <ResponseMsg>{props.status.msg}</ResponseMsg> : ""}
             <StyledButton
               forwardedAs="button"
               type="submit"
-              to="google.com"
               disabled={props.isSubmitting}
               primary
             >
@@ -261,8 +274,6 @@ const index = () => (
                 "Submit"
               )}
             </StyledButton>
-            {props.status ? <p>{props.status.msg}</p> : ""}
-            {/* <p>{props.status ? props.status.msg : "Nothing"}</p> */}
           </FormContainer>
         )}
       />

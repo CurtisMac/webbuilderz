@@ -14,14 +14,12 @@ const Container = styled.div`
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  /* background-color: ${props => props.theme.colors.pri3};
-  background-image: url(${whtBlb}), ${props => props.theme.gradients.colour}; */
-  background-image: url(${whtBlb});
+  background-color: ${props => props.theme.colors.pri3};
+  background-image: url(${whtBlb}), ${props => props.theme.gradients.colour};
   background-repeat: no-repeat;
   background-size: 100%;
   min-height: calc(100vh - ${props => props.theme.size.navHeader});
   padding: 0 2em;
-  /* position: relative; */
   @media screen and (max-width: ${props => props.theme.screen.large}) {
     background-size: 115%;
   }
@@ -29,16 +27,19 @@ const Container = styled.div`
     background-size: 115%;
   }
   @media screen and (max-width: ${props => props.theme.screen.medium}) {
-    background-size: 200%;
-    background-image: none;
+    background-size: 150%;
+    background-image: ${props => props.theme.gradients.colour};
   }
 `
 const MobileGradient = styled.img`
   display: none;
   @media screen and (max-width: ${props => props.theme.screen.medium}) {
     display: block;
-    width: 100vw;
-    margin-top: -5px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -2px;
   }
 `
 const FlexContainer = styled.div`
@@ -55,9 +56,12 @@ const TextContainer = styled.div`
   align-self: flex-start;
   padding: 5% 0 0 40px;
   @media screen and (max-width: ${props => props.theme.screen.medium}) {
-    padding: 5% 0 0 0;
+    padding: 13% 0 0 0;
     align-self: auto;
     width: 100%;
+  }
+  @media screen and (max-width: ${props => props.theme.screen.small}) {
+    padding: 15% 0 0 0;
   }
 `
 const Title = styled.h1`
@@ -126,24 +130,27 @@ const StyledButton = styled(Button)`
 `
 
 //Component
-const index = () => (
-  <Container>
-    <FlexContainer>
-      <MobileGradient src={mblGrad} alt="" />
-      <TextContainer>
-        <Title>ECOMMERCE WEB DEVELOPMENT</Title>
-        <Text>Excuse our mess, this site is under development</Text>
-      </TextContainer>
-      <ImgContainer>
-        <CyclistImg src={cyclist} alt="" />
-      </ImgContainer>
-    </FlexContainer>
-    <ButtonContainer>
-      <StyledButton primary={1} to="/contact">
-        GET IN TOUCH
-      </StyledButton>
-    </ButtonContainer>
-  </Container>
-)
+const index = props => {
+  const cnt = props.content
+  return (
+    <Container>
+      <FlexContainer>
+        <MobileGradient src={mblGrad} alt="" />
+        <TextContainer>
+          <Title>{cnt.heroText}</Title>
+          <Text>{cnt.heroSubText}</Text>
+        </TextContainer>
+        <ImgContainer>
+          <CyclistImg src={cyclist} alt="" />
+        </ImgContainer>
+      </FlexContainer>
+      <ButtonContainer>
+        <StyledButton primary={1} to="/contact">
+          GET IN TOUCH
+        </StyledButton>
+      </ButtonContainer>
+    </Container>
+  )
+}
 
 export default index

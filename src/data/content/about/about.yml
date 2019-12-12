@@ -1,0 +1,13 @@
+aboutTitle: About Us
+aboutIntro: >-
+  We are a digital eCommerce agency run by two brothers. We have fun building
+  awesome eCommerce experiences from our offices in Glasgow and Vancouver.
+team:
+  - bio: Luke loves marketing and is always trying to sell somebody something.
+    name: Luke MacLeod
+    photo: /uploads/snacho.png
+    role: Head of Marketing
+  - bio: Curtis is our resident geek.
+    name: Curtis MacLeod
+    photo: /uploads/ublym.png
+    role: CTO

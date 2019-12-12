@@ -10,7 +10,7 @@ const Card = styled.div`
   min-width: 280px;
   border-radius: 10px;
   margin: 75px 5px 10px;
-  box-shadow: 3px 3px 10px #929292;
+  box-shadow: ${props => props.theme.shadow.box};
   background-color: white;
   /* ${props => {
     if (props.num === 1) {

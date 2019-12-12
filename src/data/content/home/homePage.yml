@@ -1,0 +1,99 @@
+hero:
+  heroSubText: Helping you harness the power of the WEB to BUILD your business
+  heroText: Web Development & Digital Marketing
+about:
+  image: /uploads/bulb.png
+  subTitle: 'We help you Plan, Build, Grow, & Maintain your entire eCommerce strategy'
+  text: >-
+    We take the time to get to know your business and tailor our services to
+    meet your unique requirements
+  title: Our Offering
+webDev:
+  cards:
+    - color: pri2
+      image: /uploads/html.png
+      text: >-
+        One size does not fill all. We will make you a website unique to your
+        business and brand.
+      title: Customized
+    - color: pri1
+      image: /uploads/puzzle.png
+      text: >-
+        We will help you integrate your online store into all the functions and
+        workflows of your business.
+      title: Integrated
+    - color: pri3
+      image: /uploads/rocket.png
+      text: >-
+        We follow industry best practices so your site is blazing fast &
+        optimized for search engines
+      title: Optimized
+    - color: pri4
+      image: /uploads/trophy.png
+      text: >-
+        We'll provide the training and expertise you and your staff need to
+        become expert at running your store
+      title: Training
+  subTitle: We build eCommerce websites
+  text: Sell to your customers wherever and whenever they are shopping
+  title: Web Development
+shopify:
+  image: /uploads/shopify-partner_s.png
+  text: >-
+    **This input is not currently working, notify me of any changes and I will
+    enter them manually** -CM
+
+    When it comes to building eCommerce experiences, Shopify is our platform of
+    choice. Find out more about <a href="https://shopify.com">Shopify</a>
+marketing:
+  cards:
+    - color: acc1
+      image: /uploads/icon.png
+      title: SEM
+    - color: acc4
+      image: /uploads/icon.png
+      title: Social Media
+    - color: pri4
+      image: /uploads/icon.png
+      title: PPC
+    - color: pri1
+      image: /uploads/icon.png
+      title: Landing Pages
+    - color: pri2
+      image: /uploads/icon.png
+      title: SEO
+    - color: pri3
+      image: /uploads/icon.png
+      title: Content Marketing
+  image: /uploads/marketing_img.png
+  subTitle: 'A wholistic approach '
+  text: >-
+    We will build you a customized marketing plan that is tailored to your
+    unique business goals and budget.
+  title: Digital Marketing
+other:
+  cards:
+    - color: pri3
+      image: /uploads/webscrape.png
+      text: >-
+        We can save you massive time and money by retrieving product data
+        digitally from your suppliers where possible.
+      title: Webscraping
+    - color: pri1
+      image: /uploads/shopify_glyph.png
+      text: >
+        From theme edits to custom app development, we are experts at all things
+        Shopify.
+      title: Shopify Development
+    - color: pri4
+      image: /uploads/merchant.png
+      text: >-
+        Save money and keep track of your earnings by having a payment system
+        that's fully integrated with all of your selling channels. 
+      title: Merchant Services
+  title: Other Services
+cta:
+  bgColor: pri3
+  btnColor: pri4
+  button: Get in touch
+  text: We can help you grow your business online
