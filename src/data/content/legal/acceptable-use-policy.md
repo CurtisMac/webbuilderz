@@ -43,10 +43,6 @@ INTERACTIVE SERVICES
 
 We may from time to time provide interactive services on our site, including, without limitation:
 
-·	Contact Forms.
-
-·	Bulletin boards.
-
 ·	Blogs
 
 ·	Comments
@@ -107,7 +103,7 @@ SUSPENSION AND TERMINATION
 
 We will determine, in our discretion, whether there has been a breach of this acceptable use policy through your use of our site.  When a breach of this policy has occurred, we may take such action as we deem appropriate.  
 
-Failure to comply with this acceptable use policy constitutes a material breach of the terms of use \[INSERT AS LINK TO TERMS OF USE] upon which you are permitted to use our site, and may result in our taking all or any of the following actions:
+Failure to comply with this acceptable use policy constitutes a material breach of the [terms of use](/terms-of-use) upon which you are permitted to use our site, and may result in our taking all or any of the following actions:
 
 ·	Immediate, temporary or permanent withdrawal of your right to use our site.
 
