@@ -5,13 +5,9 @@ update_date: ''
 ---
 This acceptable use policy sets out the terms between you and us under which you may access our website https://webbuilderz.io. This acceptable use policy applies to all users of, and visitors to, our site.
 
-Your use of our site means that you accept, and agree to abide by, all the policies in this acceptable use policy, which supplement our terms of website use \[INSERT AS LINK TO SITE'S TERMS OF USE].
+Your use of our site means that you accept, and agree to abide by, all the policies in this acceptable use policy, which supplement our [terms of website use](/terms-of-use).
 
-\[DOMAIN ADDRESS] is a site operated by \[NAME OF COMPANY] (we or us).  We are registered in England and Wales under company number \[COMPANY NUMBER] and we have our registered office at \[COMPANY ADDRESS].  Our main trading address is \[TRADING ADDRESS]. Our VAT number is \[VAT NUMBER].
-
-We are regulated by \[NAME OF RELEVANT REGULATOR].
-
-\[OTHER REQUIREMENTS APPLYING TO PARTICULAR PROFESSIONS]
+https://webbuilderz.io is a site operated by Curtis MacLeod DBA WebBuilderz (we or us). We are registered in the United Kingdom.
 
 PROHIBITED USES
 
@@ -23,7 +19,7 @@ You may use our site only for lawful purposes.  You may not use our site:
 
 ·	For the purpose of harming or attempting to harm minors in any way.
 
-·	To send, knowingly receive, upload, download, use or re-use any material which does not comply with our content standards \[INSERT AS LINK TO CONTENT STANDARDS BELOW].
+·	To send, knowingly receive, upload, download, use or re-use any material which does not comply with our [content standards](#content-standards).
 
 ·	To transmit, or procure the sending of, any unsolicited or unauthorised advertising or promotional material or any other form of similar solicitation (spam).
 
@@ -31,29 +27,29 @@ You may use our site only for lawful purposes.  You may not use our site:
 
 You also agree:
 
-·	Not to reproduce, duplicate, copy or re-sell any part of our site in contravention of the provisions of our terms of website use \[INSERT AS LINK TO SITE'S TERMS OF USE].
+·	Not to reproduce, duplicate, copy or re-sell any part of our site in contravention of the provisions of our [terms of website use](/terms-of-use).
 
 ·	Not to access without authority, interfere with, damage or disrupt:
 
-•	any part of our site;
+\- any part of our site;
 
-•	any equipment or network on which our site is stored; 
+\- any equipment or network on which our site is stored; 
 
-•	any software used in the provision of our site; or 
+\- any software used in the provision of our site; or 
 
-•	any equipment or network or software owned or used by any third party.
+\- any equipment or network or software owned or used by any third party.
 
 INTERACTIVE SERVICES
 
 We may from time to time provide interactive services on our site, including, without limitation:
 
-·	Chat rooms.
+·	Contact Forms.
 
 ·	Bulletin boards.
 
 ·	Blogs
 
-·	\[LIST ANY OTHER INTERACTIVE FEATURES]
+·	Comments
 
 Where we do provide any interactive service, we will provide clear information to you about the kind of service offered, if it is moderated and what form of moderation is used (including whether it is human or technical).
 
@@ -63,7 +59,7 @@ The use of any of our interactive services by a minor is subject to the consent 
 
 Where we do moderate an interactive service, we will normally provide you with a means of contacting the moderator, should a concern or difficulty arise.
 
-CONTENT STANDARDS
+CONTENT STANDARDS<a name="content-standards"></a>
 
 These content standards apply to any and all material which you contribute to our site (contributions), and to any interactive services associated with it. 
 
