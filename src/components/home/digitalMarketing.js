@@ -10,7 +10,13 @@ import { SectionSpacing, Title, SubTitle, Text } from "./styles"
 
 //Styles
 const Container = styled.div`
-  margin: ${SectionSpacing} 0;
+  margin: ${SectionSpacing.lg} 0;
+  @media (max-width: ${props => props.theme.screen.medium}) {
+    margin: ${SectionSpacing.md} 0;
+  }
+  @media (max-width: ${props => props.theme.screen.small}) {
+    margin: ${SectionSpacing.sm} 0;
+  }
 `
 const ImgColumn = styled(Column)`
   order: 1;

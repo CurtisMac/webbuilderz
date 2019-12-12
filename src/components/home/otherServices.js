@@ -3,7 +3,7 @@ import styled from "styled-components"
 import shortid from "shortid"
 
 //Components
-import { Title } from "./styles"
+import { Title, SectionSpacing } from "./styles"
 import Card from "./card"
 
 //Assets
@@ -12,6 +12,12 @@ import arrow from "../../data/img/arrow.svg"
 //Styles
 const Container = styled.div`
   margin: 100px 0;
+  @media (max-width: ${props => props.theme.screen.medium}) {
+    margin: ${SectionSpacing.md} 0;
+  }
+  @media (max-width: ${props => props.theme.screen.small}) {
+    margin: ${SectionSpacing.sm} 0;
+  }
 `
 const StyledTitle = styled(Title)`
   text-align: center;

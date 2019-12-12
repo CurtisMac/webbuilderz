@@ -9,6 +9,8 @@ import Button from "../styledButton"
 import Card from "./card"
 
 //Assets
+// import bg from "../../data/img/triangle_background.svg"
+
 //Styles
 const StyledRow = styled(Row)`
   margin: 100px 0 0;

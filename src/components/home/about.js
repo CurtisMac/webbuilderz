@@ -10,7 +10,13 @@ import Button from "../styledButton"
 //Assets
 //Styles
 const Parent = styled.div`
-  margin: 110px 0 ${SectionSpacing};
+  margin: 110px 0 ${SectionSpacing.lg};
+  @media (max-width: ${props => props.theme.screen.medium}) {
+    margin: 30px 0 ${SectionSpacing.md};
+  }
+  @media (max-width: ${props => props.theme.screen.small}) {
+    margin: 30px 0 ${SectionSpacing.sm};
+  }
 `
 const Image = styled.div`
   padding-right: 18%;

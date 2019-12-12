@@ -19,4 +19,8 @@ export const Text = styled.p`
   font-size: 1.5rem;
   font-style: italic;
 `
-export const SectionSpacing = `180px`
+export const SectionSpacing = {
+  lg: `180px`,
+  md: `80px`,
+  sm: `40px`,
+}
