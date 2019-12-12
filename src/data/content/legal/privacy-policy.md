@@ -15,7 +15,7 @@ This website is not intended for children and we do not knowingly collect data r
 
 ## Table of Contents
 
-1. WHO WE ARE AND IMPORTANT INFORMATION
+1. [WHO WE ARE AND IMPORTANT INFORMATION](#info)
 2. THE PERSONAL DATA WE COLLECT ABOUT YOU
 3. HOW WE COLLECT YOUR PERSONAL DATA
 4. HOW WE USE YOUR PERSONAL DATA
@@ -30,7 +30,7 @@ This website is not intended for children and we do not knowingly collect data r
 
 __
 
-1. WHO WE ARE AND IMPORTANT INFORMATION
+1. WHO WE ARE AND IMPORTANT INFORMATION<a name="info></a>
 
 You must read this privacy notice together with any other privacy notice we may provide on specific occasions when we are collecting or processing personal data about you so that you are fully aware of how and why we are using your data. This privacy notice supplements the other notices and is not intended to override them.
 
