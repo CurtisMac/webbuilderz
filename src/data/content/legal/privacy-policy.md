@@ -29,7 +29,7 @@ This website is not intended for children and we do not knowingly collect data r
 
 __
 
-1. WHO WE ARE AND IMPORTANT INFORMATION<a name="info></a>
+1. WHO WE ARE AND IMPORTANT INFORMATION <a name="info"></a>
 
 You must read this privacy notice together with any other privacy notice we may provide on specific occasions when we are collecting or processing personal data about you so that you are fully aware of how and why we are using your data. This privacy notice supplements the other notices and is not intended to override them.
 
@@ -45,7 +45,7 @@ This website may include links to third-party websites, plug-ins and application
 
 When you leave our website, we encourage you to read the privacy notice of every website you visit.
 
-2. THE PERSONAL DATA WE COLLECT ABOUT YOU<a name="personal-data></a>
+2. THE PERSONAL DATA WE COLLECT ABOUT YOU <a name="personal-data"></a>
 
 Personal data, or personal information, means any information about an individual from which that person can be identified. You can find out more about personal data from the Information Commissioners Office.
 
