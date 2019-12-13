@@ -13,6 +13,7 @@ export default props => (
     <Helmet>
       <html lang="en"></html>
       <title>{props.title}</title>
+      <meta name="description" content={props.description}></meta>
       <link
         href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
         rel="stylesheet"

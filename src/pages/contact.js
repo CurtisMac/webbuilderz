@@ -143,7 +143,10 @@ const ResponseMsg = styled.p`
   text-align: center;
 `
 const index = () => (
-  <Layout>
+  <Layout
+    title="WebBuilderz || Contact Us"
+    description="WebBuilderz is an eCommerce web development and digital marketing agency. Contact us today to find out how we can help you harness the power of the web to grow your business."
+  >
     <Container>
       <GradientWrapper>
         <TopGradient src={lrgGrad} alt="" />
@@ -183,10 +186,7 @@ const index = () => (
         }}
         onSubmit={(values, { resetForm, setStatus }) => {
           axios
-            .post(
-              "https://us-central1-webbuilderz.cloudfunctions.net/contact",
-              values
-            )
+            .post("/api/contact", values)
             .then(resp => {
               resetForm()
               setStatus({ msg: resp.data.message })
