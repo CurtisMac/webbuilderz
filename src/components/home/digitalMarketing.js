@@ -1,12 +1,10 @@
 import React from "react"
 import styled from "styled-components"
 import Img from "gatsby-image"
-import shortid from "shortid"
 
 //Components
 import { Row, Column } from "../grid"
 import { SectionSpacing, Title, SubTitle, Text } from "./styles"
-// import Button from "../styledButton"
 
 //Styles
 const Container = styled.div`
