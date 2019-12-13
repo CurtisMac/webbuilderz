@@ -145,7 +145,10 @@ export default ({ data }) => {
     )
   })
   return (
-    <Layout>
+    <Layout
+      title={data.netlify.nodes[0].metadata.metaTitle}
+      description={data.netlify.nodes[0].metadata.metaDesc}
+    >
       <Container>
         <TopSection>
           <Title>{data.netlify.nodes[0].aboutTitle}</Title>
@@ -172,6 +175,10 @@ export const query = graphql`
       nodes {
         aboutIntro
         aboutTitle
+        metadata {
+          metaDesc
+          metaTitle
+        }
         team {
           role
           name

@@ -58,6 +58,22 @@ collections:
               - { label: Role, name: role, widget: string }
               - { label: Bio, name: bio, widget: markdown }
               - { label: Photo, name: photo, widget: image }
+          - label: Metadata
+            name: metadata
+            widget: object
+            fields:
+              - {
+                  label: Meta Title,
+                  name: metaTitle,
+                  widget: string,
+                  hint: Max length 60 characters,
+                }
+              - {
+                  label: Meta Description,
+                  name: metaDesc,
+                  widget: text,
+                  hint: Recommend between 50-160 characters,
+                }
       - label: FAQ Page
         name: faq
         file: src/data/content/faq/faqPage.yml
@@ -68,10 +84,42 @@ collections:
             fields:
               - { label: Question, name: question, widget: string }
               - { label: Answer, name: answer, widget: text }
+          - label: Metadata
+            name: metadata
+            widget: object
+            fields:
+              - {
+                  label: Meta Title,
+                  name: metaTitle,
+                  widget: string,
+                  hint: Max length 60 characters,
+                }
+              - {
+                  label: Meta Description,
+                  name: metaDesc,
+                  widget: text,
+                  hint: Recommend between 50-160 characters,
+                }
       - label: Home Page
         name: home
         file: src/data/content/home/homePage.yml
         fields:
+          - label: Metadata
+            name: metadata
+            widget: object
+            fields:
+              - {
+                  label: Meta Title,
+                  name: metaTitle,
+                  widget: string,
+                  hint: Max length 60 characters,
+                }
+              - {
+                  label: Meta Description,
+                  name: metaDesc,
+                  widget: text,
+                  hint: Recommend between 50-160 characters,
+                }
           - label: Hero Section
             name: hero
             widget: object

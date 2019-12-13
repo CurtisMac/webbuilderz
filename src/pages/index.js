@@ -1,5 +1,4 @@
 import React from "react"
-// import styled from "styled-components"
 import { graphql } from "gatsby"
 
 //Components
@@ -14,14 +13,11 @@ import OtherServices from "../components/home/otherServices"
 import CTA from "../components/home/cta"
 import { Container } from "../components/grid"
 
-//Styles
-// const Container = styled.div`
-//   max-width: 1024px;
-//   margin: 0 auto;
-// `
-
 const index = ({ data }) => (
-  <Layout title="WebBuilderz ecommerce web development">
+  <Layout
+    title={data.homeYaml.metadata.metaTitle}
+    description={data.homeYaml.metadata.metaDesc}
+  >
     <main>
       <Hero content={data.homeYaml.hero} />
       <Container>
@@ -42,6 +38,10 @@ export default index
 export const query = graphql`
   {
     homeYaml {
+      metadata {
+        metaTitle
+        metaDesc
+      }
       hero {
         heroSubText
         heroText

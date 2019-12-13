@@ -46,7 +46,7 @@ const StyledLink = styled(Link)`
 
 //Component
 const index = () => (
-  <Layout noNav>
+  <Layout noNav title="WebBuilderz || 404" description="Page Not Found">
     <Container>
       <StyledLink to="/">
         <Logo src={logo} alt="Logo" />

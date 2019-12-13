@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 //Components
 import Button from "../styledButton"
-import { SectionSpacing, Title } from "./styles"
+import { SectionSpacing } from "./styles"
 
 //Styles
 const Container = styled.div`
@@ -40,7 +40,7 @@ const index = props => {
       <Container>
         <BG color={cnt.bgColor} />
         <Text>{cnt.text.toUpperCase()}</Text>
-        <Button to="/about" color={cnt.btnColor}>
+        <Button to="/contact" color={cnt.btnColor}>
           {cnt.button.toUpperCase()}
         </Button>
       </Container>
