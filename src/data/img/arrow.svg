@@ -7,19 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-<<<<<<< HEAD
-   width="90.435501"
-   height="168.73769"
-   viewBox="0 0 90.435501 168.73769"
-||||||| merged common ancestors
-   width="90px"
-   height="66px"
-   viewBox="0 0 90 66"
-=======
    width="90.435501"
    height="120.30051"
    viewBox="0 0 90.435501 120.30052"
->>>>>>> development
    zoomAndPan="disable"
    version="1.1"
    id="svg14"
@@ -55,162 +45,56 @@
      inkscape:window-height="1017"
      id="namedview16"
      showgrid="false"
-<<<<<<< HEAD
-     inkscape:zoom="4"
-     inkscape:cx="-41.541813"
-     inkscape:cy="74.502173"
-     inkscape:window-x="-8"
-||||||| merged common ancestors
-     inkscape:zoom="3.1555556"
-     inkscape:cx="-10.457746"
-     inkscape:cy="33"
-     inkscape:window-x="-8"
-=======
      inkscape:zoom="5.6568542"
      inkscape:cx="5.8950905"
      inkscape:cy="66.013633"
      inkscape:window-x="1912"
->>>>>>> development
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg14"
      inkscape:snap-global="false" />
   <line
-<<<<<<< HEAD
-     x1="0.021043159"
-     y1="53.810452"
-     x2="90.435501"
-     y2="53.810452"
-     style="stroke:#eaaa4b;stroke-width:2.01583004;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-||||||| merged common ancestors
-     x1="1"
-     y1="1"
-     x2="90"
-     y2="1"
-     style="stroke:#ffca4f;stroke-width:1;stroke-opacity:1"
-=======
      x1="0.021043159"
      y1="53.807522"
      x2="90.435501"
      y2="53.807522"
      style="stroke:#eaaa4b;stroke-width:2.01583004;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
->>>>>>> development
      id="line2" />
   <line
-<<<<<<< HEAD
-     x1="0.71426499"
-     y1="54.110363"
-     x2="45.214264"
-     y2="99.110359"
-     style="stroke:#eaaa4b;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-||||||| merged common ancestors
-     x1="1"
-     y1="1"
-     x2="45.5"
-     y2="46"
-     style="stroke:#ffca4f;stroke-width:1;stroke-opacity:1"
-=======
      x1="0.71426499"
      y1="54.107433"
      x2="45.214264"
      y2="99.10743"
      style="stroke:#eaaa4b;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
->>>>>>> development
      id="line4" />
   <line
-<<<<<<< HEAD
-     x1="89.714264"
-     y1="54.110363"
-     x2="45.214264"
-     y2="99.110359"
-     style="stroke:#eaaa4b;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-||||||| merged common ancestors
-     x1="90"
-     y1="1"
-     x2="45.5"
-     y2="46"
-     style="stroke:#ffca4f;stroke-width:1;stroke-opacity:1"
-=======
      x1="89.714264"
      y1="54.107433"
      x2="45.214264"
      y2="99.10743"
      style="stroke:#eaaa4b;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
->>>>>>> development
      id="line6" />
   <line
-<<<<<<< HEAD
-     x1="0"
-     y1="73.788239"
-     x2="90.427292"
-     y2="73.788239"
-     style="stroke:#eaaa4b;stroke-width:2.01597333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-||||||| merged common ancestors
-     x1="1"
-     y1="21"
-     x2="90"
-     y2="21"
-     style="stroke:#ffca4f;stroke-width:1;stroke-opacity:1"
-=======
      x1="0"
      y1="73.785309"
      x2="90.427292"
      y2="73.785309"
      style="stroke:#eaaa4b;stroke-width:2.01597333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
->>>>>>> development
      id="line8" />
   <line
-<<<<<<< HEAD
-     x1="0.71426499"
-     y1="74.110359"
-     x2="45.214264"
-     y2="119.11035"
-     style="stroke:#eaaa4b;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-||||||| merged common ancestors
-     x1="1"
-     y1="21"
-     x2="45.5"
-     y2="66"
-     style="stroke:#ffca4f;stroke-width:1;stroke-opacity:1"
-=======
      x1="0.71426499"
      y1="74.10743"
      x2="45.214264"
      y2="119.10742"
      style="stroke:#eaaa4b;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
->>>>>>> development
      id="line10" />
   <line
-<<<<<<< HEAD
-     x1="89.714264"
-     y1="74.110359"
-     x2="45.214264"
-     y2="119.11035"
-     style="stroke:#eaaa4b;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-||||||| merged common ancestors
-     x1="90"
-     y1="21"
-     x2="45.5"
-     y2="66"
-     style="stroke:#ffca4f;stroke-width:1;stroke-opacity:1"
-=======
      x1="89.703087"
      y1="74.118484"
      x2="44.264217"
      y2="119.58251"
      style="stroke:#eaaa4b;stroke-width:2.03138137;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
->>>>>>> development
      id="line12" />
-<<<<<<< HEAD
-  <line
-     x1="45.071175"
-     y1="0.00051414454"
-     x2="44.991158"
-     y2="168.73718"
-     style="stroke:#eaaa4b;stroke-width:2.16841292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="line8-8" />
-||||||| merged common ancestors
-=======
   <line
      x1="45.071312"
      y1="0.00061644078"
@@ -218,5 +102,4 @@
      y2="118.59059"
      style="stroke:#eaaa4b;stroke-width:1.82095206;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="line8-8" />
->>>>>>> development
 </svg>
