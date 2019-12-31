@@ -1,1 +1,13 @@
-{}
+{
+  "cats": [
+    {
+      "cat": "How-To"
+    },
+    {
+      "cat": "Development"
+    },
+    {
+      "cat": "Marketing"
+    }
+  ]
+}
