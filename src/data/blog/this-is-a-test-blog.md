@@ -5,5 +5,8 @@ author: Curtis MacLeod
 pub_date: 2019-10-17T16:10:06.234Z
 update_date: ''
 category: Marketing
+tags:
+  - Marketing
+  - How-To
 ---
 This is just a test
