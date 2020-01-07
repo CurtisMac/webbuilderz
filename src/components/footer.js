@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 import { Container } from "./grid"
 
 //Styles
-const Parent = styled.div`
+const Parent = styled.footer`
   background-color: ${props => props.theme.colors.pri2};
 `
 const Items = styled.div`
