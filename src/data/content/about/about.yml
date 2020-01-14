@@ -4,10 +4,14 @@ aboutIntro: >-
   building awesome eCommerce experiences from our offices in Glasgow and
   Vancouver.
 team:
-  - bio: Luke loves marketing and is always trying to sell somebody something.
+  - bio: >-
+      Luke loves marketing and is always trying to sell something to somebody.
+      He is also good at problem solving and designs systems to help businesses
+      increase productivity. He lives near Vancouver, Canada where he enjoys
+      exploring the great outdoors and refining his air guitar skills.
     name: Luke MacLeod
     photo: /uploads/snacho.png
-    role: Head of Marketing
+    role: Marketing & Business systems
   - bio: >-
       Curtis is our resident geek. He loves writing code and building great
       things on the internet. When he's not pounding away at the keys, he loves
