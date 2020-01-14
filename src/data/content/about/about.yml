@@ -1,16 +1,22 @@
 aboutTitle: About Us
 aboutIntro: >-
-  We are a digital eCommerce agency run by two brothers. We have fun building
-  awesome eCommerce experiences from our offices in Glasgow and Vancouver.
+  We are a digital eCommerce agency started by two brothers. We have fun
+  building awesome eCommerce experiences from our offices in Glasgow and
+  Vancouver.
 team:
   - bio: Luke loves marketing and is always trying to sell somebody something.
     name: Luke MacLeod
     photo: /uploads/snacho.png
     role: Head of Marketing
-  - bio: Curtis is our resident geek.
+  - bio: >-
+      Curtis is our resident geek. He loves writing code and building great
+      things on the internet. When he's not pounding away at the keys, he loves
+      reading (particularly history), travel, and hanging out with his family.
+      Born in Canada, he now lives in Scotland, where he can often be found
+      tramping around ruined castles and eating haggis.
     name: Curtis MacLeod
     photo: /uploads/ublym.png
-    role: CTO
+    role: Lead Developer
 metadata:
   metaDesc: >-
     WebBuilderz is an eCommerce web development and digital marketing agency. We
