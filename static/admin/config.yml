@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: CurtisMac/webbuilderz
-  branch: master
+  branch: development
   base_url: https://us-central1-webbuilderz.cloudfunctions.net
   auth_endpoint: /oauth/auth
 
@@ -18,13 +18,14 @@ collections:
     folder: src/data/blog
     create: true
     fields:
-      - { name: title, label: Title }
+      - { name: title, label: Title, widget: string }
       - {
           label: "Featured Image",
-          name: "thumbnail",
+          name: "image",
           widget: "image",
-          required: false,
+          hint: "Recommended size 1200px by 400px. Compress with https://tinyjpg.com/ before uploading.",
         }
+      - {name: alt, label: Image alt tag, widget: string}
       - { name: body, label: Body, widget: markdown }
       - { name: author, label: Author }
       - {
@@ -40,7 +41,38 @@ collections:
           default: "",
           required: false,
         }
-      - { name: path, label: Path }
+      - label: Categorize
+        name: cats
+        widget: object
+        fields:
+          - label: Category
+            name: category
+            widget: select
+            options: ["Development", "Marketing", "How-To", "Coding", "custom - enter below"]
+            hint: "If there is no appropriate option, select 'custom' and enter a custom category below"
+          - {
+            name: otherCat,
+            label: Custom Category,
+            widget: string,
+            default: "Other",
+            required: false,
+          }
+          - {
+              name: tagList,
+              label: List of Tags,
+              widget: list,
+              hint: "Seperate tags with a comma. Use lowercase only.",
+            }
+      - label: SEO
+        name: seo
+        widget: object
+        fields:
+          - {
+              label: Meta Description,
+              name: metaDesc,
+              widget: text,
+              hint: Displayed in search results. Recommend between 50-160 characters,
+            }
   - name: pages
     label: Pages
     files:
