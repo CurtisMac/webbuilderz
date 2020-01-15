@@ -15,7 +15,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
-  const result = await graphql(`
+  const legal = await graphql(`
     query {
       allFile(filter: { sourceInstanceName: { eq: "legal" } }) {
         edges {
@@ -30,13 +30,37 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `)
-  result.data.allFile.edges.forEach(({ node }, i) => {
+  legal.data.allFile.edges.forEach(({ node }, i) => {
     createPage({
       path: node.childMarkdownRemark.fields.slug,
       component: path.resolve(`./src/templates/legalPages.js`),
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.
+        slug: node.childMarkdownRemark.fields.slug,
+      },
+    })
+  })
+  const blogPosts = await graphql(`
+    query {
+      allFile(filter: { sourceInstanceName: { eq: "blog" } }) {
+        edges {
+          node {
+            childMarkdownRemark {
+              fields {
+                slug
+              }
+            }
+          }
+        }
+      }
+    }
+  `)
+  blogPosts.data.allFile.edges.forEach(({ node }) => {
+    createPage({
+      path: node.childMarkdownRemark.fields.slug,
+      component: path.resolve(`./src/templates/blogPosts.js`),
+      context: {
         slug: node.childMarkdownRemark.fields.slug,
       },
     })
