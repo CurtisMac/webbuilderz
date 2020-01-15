@@ -54,7 +54,6 @@ collections:
             name: otherCat,
             label: Custom Category,
             widget: string,
-            default: "Other",
             required: false,
           }
           - {
