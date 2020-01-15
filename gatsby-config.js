@@ -31,14 +31,22 @@ module.exports = {
       options: { path: `${__dirname}/src/data/`, name: "data" },
     },
     `gatsby-plugin-netlify-cms-paths`,
-    `gatsby-transformer-remark`,
     `gatsby-transformer-json`,
     `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         commonmark: true,
-        plugins: [`gatsby-plugin-netlify-cms-paths`],
+        plugins: [
+          `gatsby-plugin-netlify-cms-paths`,
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 800,
+              tracedSVG: "true",
+            },
+          },
+        ],
       },
     },
     {
