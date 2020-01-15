@@ -153,11 +153,11 @@ const index = ({ data }) => {
       <Container>
         <Breadcrumbs>
           <nav>
-            <BCLink className="breadcrumb" to={"/"}>
+            <BCLink className="breadcrumb" to={"/blog"}>
               BLOG
             </BCLink>
             <span className="breadcrumb"> / </span>
-            <BCLink className="breadcrumb" to={"/"}>
+            <BCLink className="breadcrumb" to={"/blog"} disabled>
               {cats.otherCat
                 ? cats.otherCat.toUpperCase()
                 : cats.category.toUpperCase()}
