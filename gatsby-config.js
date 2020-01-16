@@ -7,6 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: "WebBuilderz",
+    siteUrl: `https://webbuilderz.io`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -14,6 +15,42 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [
+          "/contact/",
+          "/terms-of-use",
+          "/acceptable-use-policy/",
+          "/privacy-policy/",
+          "/cookie-policy/",
+        ],
+        query: `
+        {
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+
+          allSitePage {
+            edges {
+              node {
+                path
+              }
+            }
+          }
+      }`,
+        serialize: ({ site, allSitePage }) => {
+          return allSitePage.edges.map(edge => {
+            return {
+              url: site.siteMetadata.siteUrl + edge.node.path,
+            }
+          })
+        },
+      },
+    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: { path: `${__dirname}/src/data/img`, name: "images" },
