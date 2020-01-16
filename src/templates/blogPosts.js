@@ -71,7 +71,45 @@ const Body = styled.div`
   margin-bottom: 75px;
   min-height: 100vh;
   blockquote {
-    color: red;
+    font-style: italic;
+    padding: 0 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    max-width: 500px;
+    :after {
+      top: 100%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      border-top-color: #ffffff;
+      border-width: 10px;
+      left: 65%;
+      margin-left: -10px;
+    }
+
+    :before {
+      top: 100%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      border-top-color: rgba(0, 0, 0, 0.01);
+      border-width: 11px;
+      left: 65%;
+      margin-left: -11px;
+    }
+    p {
+      border-left: 3px solid ${props => props.theme.colors.pri3};
+      margin: 20px;
+      padding-left: 10px;
+    }
   }
 `
 const index = ({ data }) => {
