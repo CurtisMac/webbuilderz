@@ -36,25 +36,11 @@ const Info = styled.div`
 `
 const Title = styled.h2`
   font-size: 1.4rem;
+  font-weight: 400;
   line-height: 1.55rem;
   margin: 0;
   max-height: calc(1.52rem * 3);
   overflow: hidden;
-  position: relative;
-  :before {
-    content: "...";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-  :after {
-    content: "";
-    position: absolute;
-    right: 0;
-    width: 1.2rem;
-    height: 1.5rem;
-    background: white;
-  }
 `
 const Divider = styled.div`
   position: absolute;
@@ -81,23 +67,23 @@ const Box = styled.div`
 `
 const Cat = styled.p`
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   background-color: ${props => props.theme.colors.pri3};
   color: white;
   padding: 3px 5px;
   display: inline;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   position: absolute;
   bottom: 40px;
 `
 const Author = styled.p`
   font-size: 1rem;
   position: absolute;
-  bottom: 12px;
-  font-weight: 700;
+  bottom: 12.5px;
+  /* font-weight: 700; */
 `
 const DateString = styled.p`
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   margin: 10px 0;
   position: absolute;
   bottom: 0;
