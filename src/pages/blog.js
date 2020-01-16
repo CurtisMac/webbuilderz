@@ -43,7 +43,9 @@ const Cards = styled.div`
 export default ({ data }) => {
   const cards = data.allFile.edges.map(e => {
     const { id, frontmatter, fields } = e.node.childMarkdownRemark
-    return <Card key={id} data={frontmatter} slug={fields.slug}></Card>
+    return (
+      <Card key={id} data={frontmatter} slug={`/blog${fields.slug}`}></Card>
+    )
   })
   return (
     <Layout title="Blog || WebBuilderz" description="WebBulderz Blog">

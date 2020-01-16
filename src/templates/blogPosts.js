@@ -114,7 +114,7 @@ const Body = styled.div`
 `
 const index = ({ data }) => {
   const { html } = data.blog
-  const url = `https://webbuilderz.io${data.blog.fields.slug}`
+  const url = `https://webbuilderz.io/blog${data.blog.fields.slug}`
   const {
     author,
     seo,
@@ -153,7 +153,7 @@ const index = ({ data }) => {
         width: data.logo.childImageSharp.original.width,
       },
     },
-    url: data.blog.fields.slug,
+    url: `/blog${data.blog.fields.slug}`,
   }
   if (update_date) {
     schema.dateModified = update_date

@@ -57,8 +57,9 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `)
   blogPosts.data.allFile.edges.forEach(({ node }) => {
+    const url = `/blog${node.childMarkdownRemark.fields.slug}`
     createPage({
-      path: node.childMarkdownRemark.fields.slug,
+      path: url,
       component: path.resolve(`./src/templates/blogPosts.js`),
       context: {
         slug: node.childMarkdownRemark.fields.slug,
