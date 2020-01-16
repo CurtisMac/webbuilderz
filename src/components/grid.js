@@ -34,6 +34,9 @@ export const Container = styled.div`
   max-width: 1224px;
   margin: 0 auto;
   padding: 0 10%;
+  @media (max-width: ${props => props.theme.screen.medium}) {
+    padding: 0 6%;
+  }
 `
 export const Row = styled.div`
   display: flex;
