@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet"
 // Styles
 const Container = styled.div`
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 50px auto 100px;
   padding: 0 10%;
   @media (max-width: ${props => props.theme.screen.medium}) {
     padding: 0 6%;
