@@ -6,9 +6,9 @@ import Img from "gatsby-image"
 import { Helmet } from "react-helmet"
 // import { Container } from "../components/grid"
 
-//Styles
+// Styles
 const Container = styled.div`
-  max-width: 760px;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 0 10%;
   @media (max-width: ${props => props.theme.screen.medium}) {
@@ -82,6 +82,8 @@ const StyledDate = styled.p`
 const Body = styled.div`
   margin-bottom: 75px;
   min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
   p {
     font-size: 1em;
     line-height: 2em;
