@@ -4,9 +4,17 @@ import Layout from "../components/layout"
 import styled from "styled-components"
 import Img from "gatsby-image"
 import { Helmet } from "react-helmet"
-import { Container } from "../components/grid"
+// import { Container } from "../components/grid"
 
 //Styles
+const Container = styled.div`
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 10%;
+  @media (max-width: ${props => props.theme.screen.medium}) {
+    padding: 0 6%;
+  }
+`
 const Breadcrumbs = styled.div`
   display: flex;
   flex-flow: row wrap;
@@ -52,6 +60,10 @@ const Author = styled.p`
     font-size: 1rem;
   }
 `
+const HeroImage = styled(Img)`
+  border-radius: 5px;
+  margin-bottom: 60px;
+`
 const StyledDate = styled.p`
   font-style: italic;
   margin: 5px 0;
@@ -70,6 +82,14 @@ const StyledDate = styled.p`
 const Body = styled.div`
   margin-bottom: 75px;
   min-height: 100vh;
+  p {
+    font-size: 1em;
+    line-height: 2em;
+    margin-bottom: 40px;
+  }
+  h2 {
+    margin-top: 100px;
+  }
   blockquote {
     font-style: italic;
     padding: 0 15px;
@@ -213,7 +233,10 @@ const index = ({ data }) => {
             <Title>{title.toUpperCase()}</Title>
             <Author>By {author}</Author>
             {image ? (
-              <Img fluid={image.childImageSharp.fluid} alt={alt}></Img>
+              <HeroImage
+                fluid={image.childImageSharp.fluid}
+                alt={alt}
+              ></HeroImage>
             ) : null}
             <Body dangerouslySetInnerHTML={{ __html: html }} />
           </article>
