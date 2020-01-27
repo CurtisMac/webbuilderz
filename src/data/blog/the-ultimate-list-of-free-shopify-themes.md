@@ -19,7 +19,9 @@ When you are building a Shopify store, one the biggest (and hardest) decisions i
 
 Be sure to bookmark this page, because I'm constantly searching the internet for new themes and whenever I find one, I'll add it here.
 
+## [Fashe](https://colorlib.com/wp/themes/fashe-free-shopify-ecommerce-theme/)
 
+Fashe is a modern looking fashion oriented theme. It boasts a modern minimalist design and many premium features.
 
 SOURCES
 
