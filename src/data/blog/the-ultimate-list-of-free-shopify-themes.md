@@ -30,3 +30,5 @@ SOURCES
 <https://www.codeinwp.com/blog/best-free-shopify-themes/>
 
 <https://www.templatemonster.com/blog/top-free-shopify-themes/>
+
+<https://colorlib.com/wp/free-best-shopify-themes/>
