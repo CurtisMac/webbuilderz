@@ -23,6 +23,10 @@ Be sure to bookmark this page, because I'm constantly searching the internet for
 
 Fashe is a modern looking fashion oriented theme. It boasts a modern minimalist design and many premium features.
 
+[Focus](http://shopythemes.com/focus-theme.html)
+
 SOURCES
 
 <https://www.codeinwp.com/blog/best-free-shopify-themes/>
+
+<https://www.templatemonster.com/blog/top-free-shopify-themes/>
