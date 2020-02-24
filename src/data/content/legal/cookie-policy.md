@@ -36,3 +36,5 @@ DETAILS OF THE THIRD PARTIES
 \- We use Shopify to power our online store--you can read more about how Shopify uses your Personal Information [here](https://www.shopify.com/legal/privacy).
 
 \- We also use Google Analytics to help us understand how our customers use our website -- you can read more about how Google uses your Personal Information [here](https://www.google.com/intl/en/policies/privacy/). You can also opt-out of Google Analytics [here](https://tools.google.com/dlpage/gaoptout).
+
+\- We also use HubSpot CMS to help us manage our relationship with our users -- you can read more about how HubSpot uses your Personal Information [here](https://legal.hubspot.com/product-privacy-policy).
