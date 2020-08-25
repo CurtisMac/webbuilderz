@@ -198,6 +198,19 @@ collections:
             fields:
               - { label: Text, name: text, widget: text }
               - { label: Image, name: image, widget: image }
+          - label: Partners
+            name: partners
+            widget: object
+            fields:
+              - { label: Text, name: text, widget: text }
+              - { label: Image, name: image, widget: image }
+              - label: Partner
+                name: partner
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Link, name: link, widget: string }
+                  - { label: Image, name: image, widget: image }
           - label: Digital Marketing
             name: marketing
             widget: object
