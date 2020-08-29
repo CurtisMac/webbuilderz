@@ -1,43 +1,38 @@
 metadata:
-  metaDesc: >-
-    WebBuilderz is an eCommerce web development and digital marketing agency. We
-    help you harness the power of the internet in order to grow your business.
+  metaDesc: WebBuilderz is an eCommerce web development and digital marketing
+    agency. We help you harness the power of the internet in order to grow your
+    business.
   metaTitle: WebBuilderz || eCommerce Web Development & Digital Marketing
 hero:
   heroSubText: We are a digital agency that builds and markets awesome online stores
   heroText: eCommerce Web Development & Digital Marketing
 about:
   image: /uploads/bulb.png
-  subTitle: 'We help you Plan, Build, Grow, & Maintain your entire eCommerce strategy'
-  text: >-
-    We take the time to get to know your business and tailor our services to
+  subTitle: We help you Plan, Build, Grow, & Maintain your entire eCommerce strategy
+  text: We take the time to get to know your business and tailor our services to
     meet your unique requirements
   title: Our Offering
 webDev:
   cards:
     - color: pri2
       image: /uploads/html.png
-      text: >-
-        One size does not fill all. We will make you a website unique to your
+      text: One size does not fill all. We will make you a website unique to your
         business and brand.
       title: Customized
     - color: pri1
       image: /uploads/puzzle.png
-      text: >-
-        We will help you integrate your online store into all the functions and
+      text: We will help you integrate your online store into all the functions and
         workflows of your business.
       title: Integrated
     - color: pri3
       image: /uploads/rocket.png
-      text: >-
-        We follow industry best practices so your site is blazing fast &
-        optimized for search engines
+      text: We follow industry best practices so your site is blazing fast & optimized
+        for search engines
       title: Optimized
     - color: pri4
       image: /uploads/trophy.png
-      text: >-
-        We'll provide the training and expertise you and your staff need to
-        become expert at running your store
+      text: We'll provide the training and expertise you and your staff need to become
+        expert at running your store
       title: Training
   subTitle: We build modern eCommerce websites
   text: Sell to your customers wherever and whenever they are shopping
@@ -48,8 +43,20 @@ shopify:
     **This input is not currently working, notify me of any changes and I will
     enter them manually** -CM
 
-    When it comes to building eCommerce experiences, Shopify is our platform of
-    choice. Find out more about <a href="https://shopify.com">Shopify</a>
+    When it comes to building eCommerce experiences, Shopify is our platform of choice. Find out more about <a href="https://shopify.com">Shopify</a>
+partners:
+  partner:
+    - name: Shopify
+      link: https://shopify.com
+      image: /uploads/shopify-partners.png
+    - name: Selz
+      link: http://selz.com/a?tap_a=8735-a5f61e&tap_s=1088490-3bdae9
+      image: /uploads/selz_logo_horizontal_rgb_standard-300w-.png
+    - name: 3dcart
+      image: /uploads/3dcart-certified-expert.png
+      link: https://www.3dcart.com/2792.html
+  text: People we partner with
+  image: /uploads/3dcart-certified-expert.png
 marketing:
   cards:
     - color: acc1
@@ -71,17 +78,15 @@ marketing:
       image: /uploads/icon.png
       title: Content Marketing
   image: /uploads/marketing_img.png
-  subTitle: 'A wholistic approach '
-  text: >-
-    We will build you a customized marketing plan that is tailored to your
+  subTitle: "A wholistic approach "
+  text: We will build you a customized marketing plan that is tailored to your
     unique business goals and budget.
   title: Digital Marketing
 other:
   cards:
     - color: pri3
       image: /uploads/webscrape.png
-      text: >-
-        We can save you massive time and money by retrieving product data
+      text: We can save you massive time and money by retrieving product data
         digitally from your suppliers where possible.
       title: Webscraping
     - color: pri1
@@ -92,9 +97,8 @@ other:
       title: Shopify Development
     - color: pri4
       image: /uploads/merchant.png
-      text: >-
-        Save money and keep track of your earnings by having a payment system
-        that's fully integrated with all of your selling channels. 
+      text: "Save money and keep track of your earnings by having a payment system
+        that's fully integrated with all of your selling channels. "
       title: Merchant Services
   title: Other Services
 cta:
